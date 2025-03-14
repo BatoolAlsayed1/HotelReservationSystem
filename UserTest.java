@@ -16,25 +16,25 @@ class UserTest {
     @Test
     void testSetName() {
         User user = new User("John Doe", "john@example.com");
-        user.setName("Jane Doe");
+        user.setName("Ali Ahmed");
 
-        assertEquals("Jane Doe", user.getName());
+        assertEquals("Ali Ahmed", user.getName());
     }
 
     @Test
     void testSetEmail() {
         User user = new User("John Doe", "john@example.com");
-        user.setEmail("jane@example.com");
+        user.setEmail("Ali@gmail.com");
 
-        assertEquals("jane@example.com", user.getEmail());
+        assertEquals("Ali@gmail.com", user.getEmail());
     }
 
     @Test
     void testSetId() {
         User user = new User("John Doe", "john@example.com");
-        user.setId(100);
-
-        assertEquals(100, user.getId());
+        user.setId(300);
+        
+        assertEquals(300, user.getId());
     }
 
     @Test
