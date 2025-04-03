@@ -35,6 +35,7 @@ public class UserRegressionTest0 {
             System.out.format("%n%s%n", "RegressionTest0.test02");
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
+        @SuppressWarnings("unused")
         java.lang.String str5 = user2.toString();
 // flaky "1) test02(RegressionTest0)":         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "User{id=16, name='hi!', email='hi!'}" + "'", str5, "User{id=16, name='hi!', email='hi!'}");
     }
@@ -46,6 +47,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         java.lang.String str7 = user2.getName();
         java.lang.Class<?> wildcardClass8 = user2.getClass();
@@ -80,6 +82,7 @@ public class UserRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test06");
         User user2 = new User("hi!", "hi!");
+        @SuppressWarnings("unused")
         java.lang.String str3 = user2.toString();
         java.lang.String str4 = user2.getName();
 // flaky "3) test06(RegressionTest0)":         org.junit.Assert.assertEquals("'" + str3 + "' != '" + "User{id=27, name='hi!', email='hi!'}" + "'", str3, "User{id=27, name='hi!', email='hi!'}");
@@ -119,10 +122,13 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         java.lang.String str7 = user2.getName();
+        @SuppressWarnings("unused")
         java.lang.String str8 = user2.toString();
         java.lang.String str9 = user2.getName();
+        @SuppressWarnings("unused")
         int int10 = user2.getId();
         java.lang.Class<?> wildcardClass11 = user2.getClass();
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "hi!" + "'", str5, "hi!");
@@ -141,6 +147,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         user2.setId((int) (byte) 100);
         user2.setId(26);
@@ -173,6 +180,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         user2.setId((int) (byte) 100);
         user2.setId((int) (byte) 100);
@@ -186,6 +194,7 @@ public class UserRegressionTest0 {
     public void test14() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test14");
+        @SuppressWarnings("unused")
         User user2 = new User("", "User{id=32, name='', email='hi!'}");
     }
 
@@ -218,6 +227,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         user2.setName("User{id=1, name='hi!', email='hi!'}");
         java.lang.String str9 = user2.getName();
@@ -262,6 +272,7 @@ public class UserRegressionTest0 {
     public void test20() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test20");
+        @SuppressWarnings("unused")
         User user2 = new User("User{id=41, name='hi!', email='hi!'}", "User{id=19, name='hi!', email='hi!'}");
     }
 
@@ -280,7 +291,9 @@ public class UserRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test22");
         User user2 = new User("", "hi!");
+        @SuppressWarnings("unused")
         java.lang.String str3 = user2.toString();
+        @SuppressWarnings("unused")
         java.lang.String str4 = user2.toString();
         java.lang.String str5 = user2.getName();
 // flaky "8) test22(RegressionTest0)":         org.junit.Assert.assertEquals("'" + str3 + "' != '" + "User{id=71, name='', email='hi!'}" + "'", str3, "User{id=71, name='', email='hi!'}");
@@ -295,6 +308,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         user2.setEmail("User{id=1, name='hi!', email='hi!'}");
         java.lang.String str9 = user2.getName();
@@ -333,6 +347,7 @@ public class UserRegressionTest0 {
     public void test26() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test26");
+        @SuppressWarnings("unused")
         User user2 = new User("User{id=26, name='hi!', email='hi!'}", "User{id=17, name='hi!', email='hi!'}");
     }
 
@@ -340,6 +355,7 @@ public class UserRegressionTest0 {
     public void test27() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test27");
+        @SuppressWarnings("unused")
         User user2 = new User("", "User{id=100, name='hi!', email='hi!'}");
     }
 
@@ -350,6 +366,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         user2.setId((int) (byte) 1);
         user2.setName("");
@@ -364,6 +381,7 @@ public class UserRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test29");
         User user2 = new User("", "hi!");
+        @SuppressWarnings("unused")
         int int3 = user2.getId();
 // flaky "11) test29(RegressionTest0)":         org.junit.Assert.assertTrue("'" + int3 + "' != '" + 82 + "'", int3 == 82);
     }
@@ -442,6 +460,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         user2.setId((int) (byte) 100);
         java.lang.Class<?> wildcardClass9 = user2.getClass();
@@ -454,6 +473,7 @@ public class UserRegressionTest0 {
     public void test36() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test36");
+        @SuppressWarnings("unused")
         User user2 = new User("User{id=19, name='hi!', email='hi!'}", "");
     }
 
@@ -464,6 +484,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         java.lang.String str7 = user2.getName();
         java.lang.String str8 = user2.getEmail();
@@ -497,8 +518,10 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         java.lang.String str7 = user2.getName();
+        @SuppressWarnings("unused")
         java.lang.String str8 = user2.toString();
         user2.setEmail("hi!");
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "hi!" + "'", str5, "hi!");
@@ -526,6 +549,7 @@ public class UserRegressionTest0 {
     public void test41() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test41");
+        @SuppressWarnings("unused")
         User user2 = new User("User{id=1, name='hi!', email='hi!'}", "User{id=20, name='User{id=19, name='hi!', email='hi!'}', email='User{id=26, name='hi!', email='hi!'}'}");
     }
 
@@ -601,6 +625,7 @@ public class UserRegressionTest0 {
             System.out.format("%n%s%n", "RegressionTest0.test47");
         User user2 = new User("hi!", "hi!");
         java.lang.String str3 = user2.getEmail();
+        @SuppressWarnings("unused")
         int int4 = user2.getId();
         org.junit.Assert.assertEquals("'" + str3 + "' != '" + "hi!" + "'", str3, "hi!");
 // flaky "15) test47(RegressionTest0)":         org.junit.Assert.assertTrue("'" + int4 + "' != '" + 108 + "'", int4 == 108);
@@ -610,6 +635,7 @@ public class UserRegressionTest0 {
     public void test48() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test48");
+        @SuppressWarnings("unused")
         User user2 = new User("User{id=17, name='hi!', email='hi!'}", "User{id=13, name='', email='hi!'}");
     }
 
@@ -618,7 +644,9 @@ public class UserRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test49");
         User user2 = new User("User{id=16, name='hi!', email='hi!'}", "hi!");
+        @SuppressWarnings("unused")
         int int3 = user2.getId();
+        @SuppressWarnings("unused")
         java.lang.String str4 = user2.toString();
 // flaky "16) test49(RegressionTest0)":         org.junit.Assert.assertTrue("'" + int3 + "' != '" + 111 + "'", int3 == 111);
 // flaky "4) test49(RegressionTest0)":         org.junit.Assert.assertEquals("'" + str4 + "' != '" + "User{id=111, name='User{id=16, name='hi!', email='hi!'}', email='hi!'}" + "'", str4, "User{id=111, name='User{id=16, name='hi!', email='hi!'}', email='hi!'}");
@@ -645,6 +673,7 @@ public class UserRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test51");
         User user2 = new User("User{id=20, name='User{id=19, name='hi!', email='hi!'}', email='User{id=26, name='hi!', email='hi!'}'}", "User{id=100, name='', email='hi!'}");
+        @SuppressWarnings("unused")
         int int3 = user2.getId();
 // flaky "17) test51(RegressionTest0)":         org.junit.Assert.assertTrue("'" + int3 + "' != '" + 116 + "'", int3 == 116);
     }
@@ -656,6 +685,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         java.lang.String str7 = user2.getEmail();
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "hi!" + "'", str5, "hi!");
@@ -681,6 +711,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         user2.setId((int) (byte) 100);
         user2.setId((int) (byte) 100);
@@ -694,6 +725,7 @@ public class UserRegressionTest0 {
     public void test55() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test55");
+        @SuppressWarnings("unused")
         User user2 = new User("User{id=27, name='hi!', email='hi!'}", "");
     }
 
@@ -702,8 +734,11 @@ public class UserRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test56");
         User user2 = new User("", "hi!");
+        @SuppressWarnings("unused")
         java.lang.String str3 = user2.toString();
+        @SuppressWarnings("unused")
         java.lang.String str4 = user2.toString();
+        @SuppressWarnings("unused")
         java.lang.String str5 = user2.toString();
 // flaky "20) test56(RegressionTest0)":         org.junit.Assert.assertEquals("'" + str3 + "' != '" + "User{id=121, name='', email='hi!'}" + "'", str3, "User{id=121, name='', email='hi!'}");
 // flaky "5) test56(RegressionTest0)":         org.junit.Assert.assertEquals("'" + str4 + "' != '" + "User{id=121, name='', email='hi!'}" + "'", str4, "User{id=121, name='', email='hi!'}");
@@ -746,10 +781,13 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         java.lang.String str7 = user2.getName();
+        @SuppressWarnings("unused")
         java.lang.String str8 = user2.toString();
         java.lang.String str9 = user2.getName();
+        @SuppressWarnings("unused")
         int int10 = user2.getId();
         user2.setEmail("User{id=96, name='hi!', email='hi!'}");
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "hi!" + "'", str5, "hi!");
@@ -764,6 +802,7 @@ public class UserRegressionTest0 {
     public void test60() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test60");
+        @SuppressWarnings("unused")
         User user2 = new User("User{id=71, name='', email='hi!'}", "");
     }
 
@@ -782,6 +821,7 @@ public class UserRegressionTest0 {
     public void test62() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test62");
+        @SuppressWarnings("unused")
         User user2 = new User("User{id=41, name='hi!', email='hi!'}", "User{id=100, name='', email='hi!'}");
     }
 
@@ -822,6 +862,7 @@ public class UserRegressionTest0 {
             System.out.format("%n%s%n", "RegressionTest0.test65");
         User user2 = new User("", "hi!");
         java.lang.String str3 = user2.getName();
+        @SuppressWarnings("unused")
         int int4 = user2.getId();
         org.junit.Assert.assertEquals("'" + str3 + "' != '" + "" + "'", str3, "");
 // flaky "22) test65(RegressionTest0)":         org.junit.Assert.assertTrue("'" + int4 + "' != '" + 132 + "'", int4 == 132);
@@ -869,6 +910,7 @@ public class UserRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test69");
         User user2 = new User("hi!", "hi!");
+        @SuppressWarnings("unused")
         java.lang.String str3 = user2.toString();
         user2.setEmail("User{id=27, name='hi!', email='hi!'}");
 // flaky "23) test69(RegressionTest0)":         org.junit.Assert.assertEquals("'" + str3 + "' != '" + "User{id=136, name='hi!', email='hi!'}" + "'", str3, "User{id=136, name='hi!', email='hi!'}");
@@ -878,6 +920,7 @@ public class UserRegressionTest0 {
     public void test70() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test70");
+        @SuppressWarnings("unused")
         User user2 = new User("", "User{id=26, name='hi!', email='hi!'}");
     }
 
@@ -888,8 +931,10 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         java.lang.String str7 = user2.getName();
+        @SuppressWarnings("unused")
         java.lang.String str8 = user2.toString();
         user2.setName("User{id=100, name='hi!', email='hi!'}");
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "hi!" + "'", str5, "hi!");
@@ -916,6 +961,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         user2.setId((int) (byte) 1);
         user2.setId(42);
@@ -930,6 +976,7 @@ public class UserRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test74");
         User user2 = new User("User{id=32, name='', email='hi!'}", "User{id=20, name='User{id=19, name='hi!', email='hi!'}', email='User{id=26, name='hi!', email='hi!'}'}");
+        @SuppressWarnings("unused")
         java.lang.String str3 = user2.toString();
 // flaky "26) test74(RegressionTest0)":         org.junit.Assert.assertEquals("'" + str3 + "' != '" + "User{id=141, name='User{id=32, name='', email='hi!'}', email='User{id=20, name='User{id=19, name='hi!', email='hi!'}', email='User{id=26, name='hi!', email='hi!'}'}'}" + "'", str3, "User{id=141, name='User{id=32, name='', email='hi!'}', email='User{id=20, name='User{id=19, name='hi!', email='hi!'}', email='User{id=26, name='hi!', email='hi!'}'}'}");
     }
@@ -941,6 +988,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         user2.setId((int) (byte) 1);
         user2.setId(42);
@@ -983,6 +1031,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         user2.setEmail("User{id=1, name='hi!', email='hi!'}");
         user2.setName("User{id=19, name='hi!', email='hi!'}");
@@ -998,6 +1047,7 @@ public class UserRegressionTest0 {
         User user2 = new User("hi!", "hi!");
         user2.setEmail("hi!");
         java.lang.String str5 = user2.getName();
+        @SuppressWarnings("unused")
         int int6 = user2.getId();
         java.lang.String str7 = user2.getName();
         user2.setEmail("User{id=1, name='hi!', email='hi!'}");
@@ -1008,48 +1058,5 @@ public class UserRegressionTest0 {
         org.junit.Assert.assertEquals("'" + str7 + "' != '" + "hi!" + "'", str7, "hi!");
         org.junit.Assert.assertNotNull(wildcardClass12);
     }
-
-    @Test
-    public void test80() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test80");
-        User user2 = new User("hi!", "hi!");
-        user2.setId(100);
-        user2.setName("");
-        java.lang.String str7 = user2.getName();
-        java.lang.String str8 = user2.getName();
-        org.junit.Assert.assertEquals("'" + str7 + "' != '" + "" + "'", str7, "");
-        org.junit.Assert.assertEquals("'" + str8 + "' != '" + "" + "'", str8, "");
-    }
-
-    @Test
-    public void test81() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test81");
-        User user2 = new User("", "hi!");
-        java.lang.String str3 = user2.toString();
-        user2.setId(46);
-        java.lang.Class<?> wildcardClass6 = user2.getClass();
-// flaky "30) test81(RegressionTest0)":         org.junit.Assert.assertEquals("'" + str3 + "' != '" + "User{id=148, name='', email='hi!'}" + "'", str3, "User{id=148, name='', email='hi!'}");
-        org.junit.Assert.assertNotNull(wildcardClass6);
-    }
-
-    @Test
-    public void test82() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test82");
-        User user2 = new User("", "User{id=19, name='hi!', email='hi!'}");
-        user2.setName("User{id=26, name='hi!', email='hi!'}");
-        java.lang.String str5 = user2.getName();
-        user2.setName("User{id=96, name='hi!', email='hi!'}");
-        user2.setId(36);
-        org.junit.Assert.assertEquals("'" + str5 + "' != '" + "User{id=26, name='hi!', email='hi!'}" + "'", str5, "User{id=26, name='hi!', email='hi!'}");
-    }
-
-    @Test
-    public void test83() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test83");
-        User user2 = new User("User{id=19, name='hi!', email='hi!'}", "User{id=138, name='hi!', email='hi!'}");
-    }
 }
+    

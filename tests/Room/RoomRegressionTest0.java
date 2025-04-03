@@ -274,6 +274,7 @@ public class RoomRegressionTest0 {
     public void test019() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test019");
+        @SuppressWarnings("unused")
         Room room4 = new Room((-1), "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='', price=10.0, available=true}", (double) 1L);
     }
 
@@ -1801,6 +1802,7 @@ public class RoomRegressionTest0 {
     public void test108() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test108");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) 'a', "Room{id=100, number='', type='', price=10.0, available=true}", "Room{id=1, number='', type='hi!', price=10.0, available=false}", (double) '#');
     }
 
@@ -1972,6 +1974,7 @@ public class RoomRegressionTest0 {
     public void test120() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test120");
+        @SuppressWarnings("unused")
         Room room4 = new Room(0, "Room{id=0, number='', type='', price=100.0, available=true}", "Room{id=100, number='', type='Room{id=0, number='', type='', price=10.0, available=true}', price=0.0, available=true}", (double) 10);
     }
 
@@ -2410,6 +2413,7 @@ public class RoomRegressionTest0 {
     public void test148() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test148");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) (short) 1, "Room{id=10, number='', type='', price=100.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 100.0f);
     }
 
@@ -2699,6 +2703,7 @@ public class RoomRegressionTest0 {
     public void test166() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test166");
+        @SuppressWarnings("unused")
         Room room4 = new Room(1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='', price=0.0, available=true}", (double) (-1L));
     }
 
@@ -2706,6 +2711,7 @@ public class RoomRegressionTest0 {
     public void test167() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test167");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) (short) 100, "Room{id=0, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='', price=100.0, available=false}", "Room{id=0, number='', type='hi!', price=0.0, available=true}", (double) 10.0f);
     }
 
@@ -2738,6 +2744,7 @@ public class RoomRegressionTest0 {
     public void test170() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test170");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) (short) -1, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='', price=100.0, available=false}", (double) 0);
     }
 
@@ -2831,6 +2838,7 @@ public class RoomRegressionTest0 {
     public void test175() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test175");
+        @SuppressWarnings("unused")
         Room room4 = new Room(10, "", "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", (double) (byte) 1);
     }
 
@@ -2893,6 +2901,7 @@ public class RoomRegressionTest0 {
     public void test180() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test180");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) '#', "Room{id=-1, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='Room{id=0, number='', type='hi!', price=10.0, available=true}', price=97.0, available=true}", "hi!", (double) (short) 100);
     }
 
@@ -3167,6 +3176,7 @@ public class RoomRegressionTest0 {
     public void test197() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test197");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) (byte) 1, "Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}", "Room{id=100, number='', type='Room{id=0, number='', type='', price=10.0, available=true}', price=0.0, available=true}", (double) 'a');
     }
 
@@ -3256,6 +3266,7 @@ public class RoomRegressionTest0 {
     public void test202() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test202");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) ' ', "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='', price=10.0, available=true}", (double) (short) 1);
     }
 
@@ -3276,6 +3287,7 @@ public class RoomRegressionTest0 {
     public void test204() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test204");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) (short) -1, "Room{id=0, number='', type='hi!', price=0.0, available=true}", "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='hi!', price=10.0, available=true}", (double) 100);
     }
 
@@ -3378,6 +3390,7 @@ public class RoomRegressionTest0 {
     public void test210() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test210");
+        @SuppressWarnings("unused")
         Room room4 = new Room(100, "Room{id=-1, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 100.0f);
     }
 
@@ -3385,6 +3398,7 @@ public class RoomRegressionTest0 {
     public void test211() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test211");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) '4', "Room{id=0, number='', type='', price=1.0, available=true}", "Room{id=0, number='', type='', price=100.0, available=true}", (double) 10.0f);
     }
 
@@ -3883,6 +3897,7 @@ public class RoomRegressionTest0 {
     public void test241() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test241");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) (short) -1, "", "Room{id=0, number='', type='Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}', price=0.0, available=false}", (double) (byte) 100);
     }
 
@@ -3971,6 +3986,7 @@ public class RoomRegressionTest0 {
     public void test246() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test246");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) 'a', "hi!", "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", (double) (short) 0);
     }
 
@@ -4165,6 +4181,7 @@ public class RoomRegressionTest0 {
     public void test258() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test258");
+        @SuppressWarnings("unused")
         Room room4 = new Room(1, "Room{id=0, number='', type='hi!', price=0.0, available=false}", "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", (double) (byte) 100);
     }
 
@@ -4280,6 +4297,7 @@ public class RoomRegressionTest0 {
     public void test266() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test266");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) (byte) 0, "Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}", "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='', price=10.0, available=true}", (double) (-1));
     }
 
@@ -4337,6 +4355,7 @@ public class RoomRegressionTest0 {
     public void test270() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test270");
+        @SuppressWarnings("unused")
         Room room4 = new Room((-1), "Room{id=1, number='', type='', price=10.0, available=true}", "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='', price=10.0, available=true}", (double) ' ');
     }
 
@@ -4385,6 +4404,7 @@ public class RoomRegressionTest0 {
     public void test274() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test274");
+        @SuppressWarnings("unused")
         Room room4 = new Room(0, "Room{id=0, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='', price=100.0, available=true}", "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", (double) 100L);
     }
 
@@ -4690,6 +4710,7 @@ public class RoomRegressionTest0 {
     public void test292() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test292");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) '4', "Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}", "", (double) 10L);
     }
 
@@ -5411,6 +5432,7 @@ public class RoomRegressionTest0 {
     public void test332() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test332");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) '4', "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='', price=97.0, available=true}", (double) 32);
     }
 
@@ -5448,6 +5470,7 @@ public class RoomRegressionTest0 {
     public void test335() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test335");
+        @SuppressWarnings("unused")
         Room room4 = new Room(0, "Room{id=10, number='', type='', price=100.0, available=true}", "Room{id=1, number='', type='', price=10.0, available=true}", 32.0d);
     }
 
@@ -5466,6 +5489,7 @@ public class RoomRegressionTest0 {
     public void test337() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test337");
+        @SuppressWarnings("unused")
         Room room4 = new Room(100, "Room{id=0, number='', type='Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}', price=0.0, available=false}", "Room{id=0, number='hi!', type='', price=10.0, available=true}", (double) (-1));
     }
 
@@ -5585,6 +5609,7 @@ public class RoomRegressionTest0 {
     public void test346() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test346");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) (byte) -1, "Room{id=1, number='', type='', price=10.0, available=true}", "Room{id=97, number='Room{id=0, number='', type='', price=100.0, available=true}', type='', price=10.0, available=true}", (double) 1L);
     }
 
@@ -5840,6 +5865,7 @@ public class RoomRegressionTest0 {
     public void test361() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test361");
+        @SuppressWarnings("unused")
         Room room4 = new Room(100, "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='hi!', price=10.0, available=true}", "", (double) 100.0f);
     }
 
@@ -6442,6 +6468,7 @@ public class RoomRegressionTest0 {
     public void test393() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test393");
+        @SuppressWarnings("unused")
         Room room4 = new Room(1, "Room{id=-1, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='Room{id=1, number='', type='hi!', price=10.0, available=false}', type='Room{id=0, number='', type='', price=10.0, available=true}', price=10.0, available=true}", (double) 0.0f);
     }
 
@@ -6548,6 +6575,7 @@ public class RoomRegressionTest0 {
     public void test400() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test400");
+        @SuppressWarnings("unused")
         Room room4 = new Room((int) (byte) -1, "Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}", "Room{id=0, number='Room{id=1, number='', type='hi!', price=10.0, available=false}', type='Room{id=0, number='', type='', price=10.0, available=true}', price=10.0, available=true}", (double) 32);
     }
 
@@ -6677,6 +6705,7 @@ public class RoomRegressionTest0 {
     public void test409() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test409");
+        @SuppressWarnings("unused")
         Room room4 = new Room(97, "Room{id=0, number='', type='hi!', price=10.0, available=true}", "Room{id=0, number='Room{id=1, number='', type='hi!', price=10.0, available=false}', type='Room{id=0, number='', type='', price=10.0, available=true}', price=10.0, available=true}", (double) (short) -1);
     }
 
@@ -6740,6 +6769,7 @@ public class RoomRegressionTest0 {
     public void test413() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test413");
+        @SuppressWarnings("unused")
         Room room4 = new Room(0, "", "Room{id=0, number='', type='', price=100.0, available=true}", (double) 32);
     }
 
@@ -6771,6 +6801,7 @@ public class RoomRegressionTest0 {
     public void test415() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test415");
+        @SuppressWarnings("unused")
         Room room4 = new Room(97, "Room{id=97, number='', type='', price=10.0, available=true}", "hi!", (double) (short) 1);
     }
 
@@ -6891,24 +6922,6 @@ public class RoomRegressionTest0 {
         org.junit.Assert.assertTrue("'" + int16 + "' != '" + 0 + "'", int16 == 0);
         org.junit.Assert.assertTrue("'" + int17 + "' != '" + 0 + "'", int17 == 0);
         org.junit.Assert.assertTrue("'" + boolean18 + "' != '" + true + "'", boolean18 == true);
-    }
-
-    @Test
-    public void test423() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test423");
-        Room room4 = new Room(0, "", "Room{id=0, number='', type='Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}', price=0.0, available=false}", (double) 10.0f);
-        java.lang.String str5 = room4.getNumber();
-        int int6 = room4.getId();
-        org.junit.Assert.assertEquals("'" + str5 + "' != '" + "" + "'", str5, "");
-        org.junit.Assert.assertTrue("'" + int6 + "' != '" + 0 + "'", int6 == 0);
-    }
-
-    @Test
-    public void test424() throws Throwable {
-        if (debug)
-            System.out.format("%n%s%n", "RegressionTest0.test424");
-        Room room4 = new Room(10, "Room{id=0, number='Room{id=1, number='', type='hi!', price=10.0, available=false}', type='Room{id=0, number='', type='', price=10.0, available=true}', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) (byte) 100);
     }
 
     @Test
