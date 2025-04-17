@@ -37,7 +37,7 @@ public class ReserveRoom {
             }
         }
         if (!foundAvailableRoom) {
-            System.out.println("No rooms available .");
+            System.out.println("No rooms available.");
         }
     }
 
