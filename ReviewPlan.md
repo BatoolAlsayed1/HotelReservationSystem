@@ -1,8 +1,9 @@
                                                Review Plan
                                                   
-              Reviewer               |          To Review                          |               Use Case            |
-Batool Sayed Ebrahim Ahmed 202109262 |      Bushra Hussain Habib 202207555         |              Search Room          |
-Bushra Hussain Habib 202207555       |      Batool Sayed Ebrahim Ahmed 202109262   |             Reserve Room          |
+              Reviewer                 |          To Review                           |               Use Case            |
+Batool Sayed Ebrahim Ahmed 202109262   |      Bushra Hussain Habib 202207555          |              Search Room          |
+Bushra Hussain Habib 202207555         |      Batool Sayed Ebrahim Ahmed 202109262    |             Reserve Room          |
+
 
 Review Checklist:
 - Correctness: Does the code do what it is intended to do?
