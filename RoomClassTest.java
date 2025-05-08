@@ -3,22 +3,22 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * JUnit test class for the Room class.
- * Ensures that Room attributes and methods function as expected.
- *
- * @author Bushra Hussain Habib 202207555
+ * JUnit test class for the RoomClass.
+ * Ensures that RoomClass attributes and methods function as expected.
+ * 
+ * Author: Bushra Hussain Habib 202207555
  */
-class RoomTest {
-    private Room room;
+class RoomClassTest {
+    private RoomClass room;
 
     @BeforeEach
     void setUp() {
-        room = new Room(1, "101", "Deluxe", 150.0);
+        room = new RoomClass(1, "101", "Deluxe", 150.0);
     }
 
     @Test
     void testDefaultConstructor() {
-        Room defaultRoom = new Room();
+        RoomClass defaultRoom = new RoomClass();
         assertEquals(0, defaultRoom.getId());
         assertEquals("", defaultRoom.getNumber());
         assertEquals("", defaultRoom.getType());
@@ -42,6 +42,12 @@ class RoomTest {
         room.setType("Suite");
         room.setPrice(200.0);
         room.setAvailable(false);
+
+        assertEquals(2, room.getId());
+        assertEquals("102", room.getNumber());
+        assertEquals("Suite", room.getType());
+        assertEquals(200.0, room.getPrice(), 0.01);
+        assertFalse(room.isAvailable());
     }
 
     @Test

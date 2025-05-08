@@ -3,14 +3,14 @@
  * 
  * @author Bushra Hussain Habib 202207555
  */
-public class Room {
+public class RoomClass {
     private int id;
     private String number, type;
     private double price;
     private boolean available;
 
     // Default constructor
-    public Room() {
+    public RoomClass() {
         this.id = 0;
         this.number = "";
         this.type = "";
@@ -19,7 +19,7 @@ public class Room {
     }
 
     // Parameterized constructor
-    public Room(int id, String number, String type, double price) {
+    public RoomClass(int id, String number, String type, double price) {
         this.id = id;
         this.number = number;
         this.type = type;

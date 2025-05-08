@@ -5,16 +5,16 @@ import java.util.*;
  * 
  * @author Bushra Hussain Habib 202207555
  */
-public class SearchRoom {
+public class SearchRoomClass {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
 
         // Sample rooms
-        LinkedList<Room> roomsList = new LinkedList<>();
-        roomsList.add(new Room(1, "101", "Deluxe", 150.0));
-        roomsList.add(new Room(2, "102", "Standard", 100.0));
-        roomsList.add(new Room(3, "103", "Deluxe", 180.0));
-        roomsList.add(new Room(4, "104", "Suite", 250.0));
+        LinkedList<RoomClass> roomsList = new LinkedList<>();
+        roomsList.add(new RoomClass(1, "101", "Deluxe", 150.0));
+        roomsList.add(new RoomClass(2, "102", "Standard", 100.0));
+        roomsList.add(new RoomClass(3, "103", "Deluxe", 180.0));
+        roomsList.add(new RoomClass(4, "104", "Suite", 250.0));
 
         // Ask user what parameter they want to search by
         System.out.println("What will you use to search? (Type/Price/Availability)");
@@ -40,9 +40,9 @@ public class SearchRoom {
     }
 
     // Search rooms by type
-    public static void searchByType(LinkedList<Room> roomsList, String type) {
+    public static void searchByType(LinkedList<RoomClass> roomsList, String type) {
         boolean found = false;
-        for (Room room : roomsList) {
+        for (RoomClass room : roomsList) {
             if (room.getType().equalsIgnoreCase(type)) {
                 System.out.println(room);
                 found = true;
@@ -53,9 +53,9 @@ public class SearchRoom {
     }
 
     // Search rooms by price range
-    public static void searchByPrice(LinkedList<Room> roomsList, double minPrice, double maxPrice) {
+    public static void searchByPrice(LinkedList<RoomClass> roomsList, double minPrice, double maxPrice) {
         boolean found = false;
-        for (Room room : roomsList) {
+        for (RoomClass room : roomsList) {
             if (room.getPrice() >= minPrice && room.getPrice() <= maxPrice) {
                 System.out.println(room);
                 found = true;
@@ -66,9 +66,9 @@ public class SearchRoom {
     }
 
     // Search available rooms
-    public static void searchByAvailability(LinkedList<Room> roomsList) {
+    public static void searchByAvailability(LinkedList<RoomClass> roomsList) {
         boolean found = false;
-        for (Room room : roomsList) {
+        for (RoomClass room : roomsList) {
             if (room.isAvailable()) {
                 System.out.println(room);
                 found = true;
