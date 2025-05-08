@@ -3,46 +3,49 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ReserveRoom {
-    private List<Room> rooms; // List of rooms
-    private List<String> reservations; // List of room reservations
+    private List<Room> rooms;         
+    private List<String> reservations;  
 
-    // Constructor initializes the list of rooms and reservations
     public ReserveRoom(List<Room> rooms) {
         this.rooms = rooms;
         this.reservations = new ArrayList<>();
     }
+    private User promptUserDetails(Scanner scanner) {
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+        System.out.print("Enter your email: ");
+        String email = scanner.nextLine();
+        return new User(name, email);
+    }
 
-    // Method to reserve a room for a user
     public String reserveRoom(User user, Room room) {
-        // Check if the room is available
         if (!room.isAvailable()) {
             return "Room " + room.getNumber() + " is already reserved.";
         }
-        // Reserve the room
-        room.setAvailable(false); // Mark the room as unavailable
+        room.setAvailable(false);
         reservations.add("User " + user.getName() + " reserved room " + room.getNumber());
-
         return "Room " + room.getNumber() + " reserved successfully for " + user.getName() + ".";
     }
-    // Method to view available rooms
+
     public void displayAvailableRooms() {
-        boolean foundAvailableRoom = false;
+        boolean found = false;
         for (Room room : rooms) {
             if (room.isAvailable()) {
-                if (!foundAvailableRoom) {
-                    System.out.println("Available rooms:");
+                if (!found) {
+                    System.out.println("\nAvailable rooms:");
                 }
-                foundAvailableRoom = true;
-                System.out.println("Room Number: " + room.getNumber() + ", Type: " + room.getType() + ", Price: " + room.getPrice());
+                found = true;
+                System.out.printf("Room Number: %s, Type: %s, Price: %.2f%n",
+                                  room.getNumber(), room.getType(), room.getPrice());
             }
         }
-        if (!foundAvailableRoom) {
-            System.out.println("No rooms available.");
+        if (!found) {
+            System.out.println("\nNo rooms available.");
         }
     }
 
     public static void main(String[] args) {
-        // Example usage of the ReserveRoom class
+
         Room room1 = new Room(1, "101", "Single", 100.0);
         Room room2 = new Room(2, "102", "Double", 150.0);
         List<Room> rooms = new ArrayList<>();
@@ -50,59 +53,43 @@ public class ReserveRoom {
         rooms.add(room2);
 
         ReserveRoom reserveRoom = new ReserveRoom(rooms);
-
         Scanner scanner = new Scanner(System.in);
 
-        // Display available rooms and let the user reserve a room
-        while (true) {
-            // Display available rooms before each reservation attempt
+
+        User user = reserveRoom.promptUserDetails(scanner);
+
+
+        while (rooms.stream().anyMatch(Room::isAvailable)) {
             reserveRoom.displayAvailableRooms();
 
-            // If there are no available rooms, break the loop
-            if (rooms.stream().noneMatch(Room::isAvailable)) {
+            System.out.print("\nEnter the room number to reserve (or 'exit'): ");
+            String choice = scanner.nextLine();
+            if (choice.equalsIgnoreCase("exit")) {
                 break;
             }
 
-            // Ask the user to select a room
-            System.out.print("\nEnter the room number you want to reserve (or type 'exit' to quit): ");
-            String roomNumber = scanner.nextLine();
-
-            if (roomNumber.equalsIgnoreCase("exit")) {
-                break; // Exit the loop if the user types "exit"
-            }
-
-            // Find the room with the selected room number
             Room selectedRoom = null;
-            for (Room room : rooms) {
-                if (room.getNumber().equals(roomNumber)) {
-                    selectedRoom = room;
+            for (Room r : rooms) {
+                if (r.getNumber().equals(choice)) {
+                    selectedRoom = r;
                     break;
                 }
             }
 
-            // If the room is available, ask for user details and proceed with reservation
-            if (selectedRoom != null && selectedRoom.isAvailable()) {
-                System.out.println("Room " + selectedRoom.getNumber() + " is available. Please enter your details to reserve it.");
-
-                // Ask for user details
-                System.out.print("Enter your name: ");
-                String name = scanner.nextLine();
-                System.out.print("Enter your email: ");
-                String email = scanner.nextLine();
-
-                // Create a User object with the provided details
-                User user = new User( name, email);  
-
-                // Proceed with reservation
-                System.out.println(reserveRoom.reserveRoom(user, selectedRoom));
-
-            } else if (selectedRoom != null && !selectedRoom.isAvailable()) {
-                System.out.println("Sorry, room " + selectedRoom.getNumber() + " is already reserved.");
-            } else {
+            if (selectedRoom == null) {
                 System.out.println("Room not found. Please try again.");
+            } else {
+                System.out.println(reserveRoom.reserveRoom(user, selectedRoom));
             }
             System.out.println();
         }
+
+
+        System.out.println("Your reservations:");
+        for (String rec : reserveRoom.reservations) {
+            System.out.println(rec);
+        }
+
         scanner.close();
     }
 }
