@@ -64,7 +64,7 @@ public class ReserveRoom {
             }
 
             // Ask the user to select a room
-            System.out.print("\nEnter the room number you want to reserve (or type 'exit' to quit): ");
+            System.out.print("\nEnter the room number you want to reserve (or type 'exit'): ");
             String roomNumber = scanner.nextLine();
 
             if (roomNumber.equalsIgnoreCase("exit")) {
