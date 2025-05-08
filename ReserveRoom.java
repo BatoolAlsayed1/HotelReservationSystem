@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -65,7 +64,7 @@ public class ReserveRoom {
             }
 
             // Ask the user to select a room
-            System.out.print("\nEnter the room number you want to reserve (or type 'exit'): ");
+            System.out.print("\nEnter the room number you want to reserve (or type 'exit' to quit): ");
             String roomNumber = scanner.nextLine();
 
             if (roomNumber.equalsIgnoreCase("exit")) {
