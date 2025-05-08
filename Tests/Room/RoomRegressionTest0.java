@@ -22,7 +22,7 @@ public class RoomRegressionTest0 {
     public void test001() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test001");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         java.lang.Class<?> wildcardClass4 = room0.getClass();
@@ -34,7 +34,7 @@ public class RoomRegressionTest0 {
     public void test002() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test002");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.Class<?> wildcardClass3 = room0.getClass();
         org.junit.Assert.assertNotNull(wildcardClass3);
@@ -44,7 +44,7 @@ public class RoomRegressionTest0 {
     public void test003() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test003");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -59,7 +59,7 @@ public class RoomRegressionTest0 {
     public void test004() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test004");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -73,7 +73,7 @@ public class RoomRegressionTest0 {
     public void test005() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test005");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -86,7 +86,7 @@ public class RoomRegressionTest0 {
     public void test006() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test006");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -106,7 +106,7 @@ public class RoomRegressionTest0 {
     public void test007() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test007");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -122,7 +122,7 @@ public class RoomRegressionTest0 {
     public void test008() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test008");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.Class<?> wildcardClass1 = room0.getClass();
         org.junit.Assert.assertNotNull(wildcardClass1);
     }
@@ -131,7 +131,7 @@ public class RoomRegressionTest0 {
     public void test009() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test009");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         int int5 = room4.getId();
         java.lang.Class<?> wildcardClass6 = room4.getClass();
         org.junit.Assert.assertTrue("'" + int5 + "' != '" + (-1) + "'", int5 == (-1));
@@ -142,7 +142,7 @@ public class RoomRegressionTest0 {
     public void test010() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test010");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -154,7 +154,7 @@ public class RoomRegressionTest0 {
     public void test011() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test011");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         room4.setPrice((double) (byte) 1);
         room4.setPrice((-1.0d));
     }
@@ -163,7 +163,7 @@ public class RoomRegressionTest0 {
     public void test012() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test012");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -180,7 +180,7 @@ public class RoomRegressionTest0 {
     public void test013() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test013");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -196,7 +196,7 @@ public class RoomRegressionTest0 {
     public void test014() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test014");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setPrice((double) (byte) 100);
@@ -213,7 +213,7 @@ public class RoomRegressionTest0 {
     public void test015() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test015");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -228,7 +228,7 @@ public class RoomRegressionTest0 {
     public void test016() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test016");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -250,7 +250,7 @@ public class RoomRegressionTest0 {
     public void test017() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test017");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -267,7 +267,7 @@ public class RoomRegressionTest0 {
     public void test018() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test018");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         room4.setPrice((double) (byte) 1);
         java.lang.String str7 = room4.getNumber();
         java.lang.String str8 = room4.getNumber();
@@ -279,7 +279,7 @@ public class RoomRegressionTest0 {
     public void test019() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test019");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -294,7 +294,7 @@ public class RoomRegressionTest0 {
     public void test020() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test020");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -312,14 +312,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test021");
         @SuppressWarnings("unused")
-        Room room4 = new Room((-1), "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='', price=10.0, available=true}", (double) 1L);
+        RoomClass room4 = new RoomClass((-1), "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='', price=10.0, available=true}", (double) 1L);
     }
 
     @Test
     public void test022() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test022");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -340,7 +340,7 @@ public class RoomRegressionTest0 {
     public void test023() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test023");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         room4.setType("");
     }
 
@@ -348,7 +348,7 @@ public class RoomRegressionTest0 {
     public void test024() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test024");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         room4.setPrice((double) (byte) 1);
         java.lang.String str7 = room4.getNumber();
         int int8 = room4.getId();
@@ -362,7 +362,7 @@ public class RoomRegressionTest0 {
     public void test025() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test025");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         boolean boolean1 = room0.isAvailable();
         room0.setId((-1));
         int int4 = room0.getId();
@@ -375,7 +375,7 @@ public class RoomRegressionTest0 {
     public void test026() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test026");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -392,7 +392,7 @@ public class RoomRegressionTest0 {
     public void test027() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test027");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -409,7 +409,7 @@ public class RoomRegressionTest0 {
     public void test028() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test028");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -429,7 +429,7 @@ public class RoomRegressionTest0 {
     public void test029() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test029");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         room4.setId((int) (short) -1);
         double double7 = room4.getPrice();
         boolean boolean8 = room4.isAvailable();
@@ -441,7 +441,7 @@ public class RoomRegressionTest0 {
     public void test030() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test030");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -460,7 +460,7 @@ public class RoomRegressionTest0 {
     public void test031() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test031");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setPrice((double) (byte) 100);
@@ -473,7 +473,7 @@ public class RoomRegressionTest0 {
     public void test032() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test032");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -494,7 +494,7 @@ public class RoomRegressionTest0 {
     public void test033() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test033");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -509,7 +509,7 @@ public class RoomRegressionTest0 {
     public void test034() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test034");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         room4.setId((int) (short) -1);
         double double7 = room4.getPrice();
         int int8 = room4.getId();
@@ -521,7 +521,7 @@ public class RoomRegressionTest0 {
     public void test035() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test035");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         java.lang.Class<?> wildcardClass5 = room4.getClass();
         org.junit.Assert.assertNotNull(wildcardClass5);
     }
@@ -530,7 +530,7 @@ public class RoomRegressionTest0 {
     public void test036() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test036");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         int int1 = room0.getId();
         java.lang.Class<?> wildcardClass2 = room0.getClass();
         org.junit.Assert.assertTrue("'" + int1 + "' != '" + 0 + "'", int1 == 0);
@@ -541,7 +541,7 @@ public class RoomRegressionTest0 {
     public void test037() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test037");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -556,7 +556,7 @@ public class RoomRegressionTest0 {
     public void test038() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test038");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -575,7 +575,7 @@ public class RoomRegressionTest0 {
     public void test039() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test039");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         room4.setId((int) (short) -1);
         java.lang.String str7 = room4.getNumber();
         java.lang.String str8 = room4.toString();
@@ -587,7 +587,7 @@ public class RoomRegressionTest0 {
     public void test040() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test040");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -604,7 +604,7 @@ public class RoomRegressionTest0 {
     public void test041() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test041");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         room4.setPrice((double) (byte) 1);
         java.lang.String str7 = room4.getNumber();
         double double8 = room4.getPrice();
@@ -616,7 +616,7 @@ public class RoomRegressionTest0 {
     public void test042() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test042");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) 10L);
         int int4 = room0.getId();
@@ -630,7 +630,7 @@ public class RoomRegressionTest0 {
     public void test043() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test043");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -646,7 +646,7 @@ public class RoomRegressionTest0 {
     public void test044() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test044");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -664,7 +664,7 @@ public class RoomRegressionTest0 {
     public void test045() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test045");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -681,7 +681,7 @@ public class RoomRegressionTest0 {
     public void test046() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test046");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         room4.setId((int) (short) -1);
         double double7 = room4.getPrice();
         double double8 = room4.getPrice();
@@ -693,7 +693,7 @@ public class RoomRegressionTest0 {
     public void test047() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test047");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         double double5 = room4.getPrice();
         java.lang.String str6 = room4.getNumber();
         org.junit.Assert.assertTrue("'" + double5 + "' != '" + 10.0d + "'", double5 == 10.0d);
@@ -704,7 +704,7 @@ public class RoomRegressionTest0 {
     public void test048() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test048");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -724,7 +724,7 @@ public class RoomRegressionTest0 {
     public void test049() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test049");
-        Room room4 = new Room((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
+        RoomClass room4 = new RoomClass((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
         double double5 = room4.getPrice();
         org.junit.Assert.assertTrue("'" + double5 + "' != '" + 0.0d + "'", double5 == 0.0d);
     }
@@ -733,7 +733,7 @@ public class RoomRegressionTest0 {
     public void test050() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test050");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -758,7 +758,7 @@ public class RoomRegressionTest0 {
     public void test051() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test051");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -787,7 +787,7 @@ public class RoomRegressionTest0 {
     public void test052() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test052");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -812,7 +812,7 @@ public class RoomRegressionTest0 {
     public void test053() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test053");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         boolean boolean1 = room0.isAvailable();
         room0.setId((-1));
         java.lang.Class<?> wildcardClass4 = room0.getClass();
@@ -824,7 +824,7 @@ public class RoomRegressionTest0 {
     public void test054() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test054");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -839,7 +839,7 @@ public class RoomRegressionTest0 {
     public void test055() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test055");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -859,7 +859,7 @@ public class RoomRegressionTest0 {
     public void test056() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test056");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -874,7 +874,7 @@ public class RoomRegressionTest0 {
     public void test057() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test057");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -900,7 +900,7 @@ public class RoomRegressionTest0 {
     public void test058() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test058");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -921,7 +921,7 @@ public class RoomRegressionTest0 {
     public void test059() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test059");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -936,7 +936,7 @@ public class RoomRegressionTest0 {
     public void test060() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test060");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         int int1 = room0.getId();
         room0.setAvailable(false);
         org.junit.Assert.assertTrue("'" + int1 + "' != '" + 0 + "'", int1 == 0);
@@ -946,7 +946,7 @@ public class RoomRegressionTest0 {
     public void test061() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test061");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -967,7 +967,7 @@ public class RoomRegressionTest0 {
     public void test062() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test062");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         int int1 = room0.getId();
         room0.setPrice((double) 0);
         java.lang.String str4 = room0.getNumber();
@@ -979,7 +979,7 @@ public class RoomRegressionTest0 {
     public void test063() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test063");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -995,7 +995,7 @@ public class RoomRegressionTest0 {
     public void test064() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test064");
-        Room room4 = new Room((int) (short) 10, "", "Room{id=0, number='', type='', price=10.0, available=true}", (double) 0L);
+        RoomClass room4 = new RoomClass((int) (short) 10, "", "Room{id=0, number='', type='', price=10.0, available=true}", (double) 0L);
         java.lang.String str5 = room4.getType();
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "Room{id=0, number='', type='', price=10.0, available=true}" + "'", str5, "Room{id=0, number='', type='', price=10.0, available=true}");
     }
@@ -1004,7 +1004,7 @@ public class RoomRegressionTest0 {
     public void test065() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test065");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         java.lang.String str4 = room0.toString();
@@ -1016,7 +1016,7 @@ public class RoomRegressionTest0 {
     public void test066() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test066");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setPrice((double) (byte) 100);
@@ -1038,7 +1038,7 @@ public class RoomRegressionTest0 {
     public void test067() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test067");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         java.lang.String str5 = room4.getNumber();
         boolean boolean6 = room4.isAvailable();
         room4.setAvailable(false);
@@ -1050,7 +1050,7 @@ public class RoomRegressionTest0 {
     public void test068() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test068");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -1072,7 +1072,7 @@ public class RoomRegressionTest0 {
     public void test069() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test069");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1092,7 +1092,7 @@ public class RoomRegressionTest0 {
     public void test070() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test070");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -1119,7 +1119,7 @@ public class RoomRegressionTest0 {
     public void test071() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test071");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         java.lang.String str5 = room4.getNumber();
         boolean boolean6 = room4.isAvailable();
         int int7 = room4.getId();
@@ -1132,7 +1132,7 @@ public class RoomRegressionTest0 {
     public void test072() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test072");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         boolean boolean1 = room0.isAvailable();
         room0.setId((-1));
         int int4 = room0.getId();
@@ -1145,7 +1145,7 @@ public class RoomRegressionTest0 {
     public void test073() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test073");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) 10L);
         double double4 = room0.getPrice();
@@ -1162,7 +1162,7 @@ public class RoomRegressionTest0 {
     public void test074() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test074");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setAvailable(true);
         boolean boolean4 = room0.isAvailable();
@@ -1174,7 +1174,7 @@ public class RoomRegressionTest0 {
     public void test075() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test075");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -1190,7 +1190,7 @@ public class RoomRegressionTest0 {
     public void test076() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test076");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -1203,7 +1203,7 @@ public class RoomRegressionTest0 {
     public void test077() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test077");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -1219,7 +1219,7 @@ public class RoomRegressionTest0 {
     public void test078() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test078");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1242,7 +1242,7 @@ public class RoomRegressionTest0 {
     public void test079() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test079");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1256,7 +1256,7 @@ public class RoomRegressionTest0 {
     public void test080() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test080");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -1285,7 +1285,7 @@ public class RoomRegressionTest0 {
     public void test081() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test081");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1310,7 +1310,7 @@ public class RoomRegressionTest0 {
     public void test082() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test082");
-        Room room4 = new Room((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
+        RoomClass room4 = new RoomClass((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
         java.lang.String str5 = room4.getNumber();
         java.lang.Class<?> wildcardClass6 = room4.getClass();
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "Room{id=0, number='hi!', type='', price=10.0, available=true}" + "'", str5, "Room{id=0, number='hi!', type='', price=10.0, available=true}");
@@ -1321,7 +1321,7 @@ public class RoomRegressionTest0 {
     public void test083() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test083");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setId(0);
@@ -1335,7 +1335,7 @@ public class RoomRegressionTest0 {
     public void test084() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test084");
-        Room room4 = new Room((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
+        RoomClass room4 = new RoomClass((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
         java.lang.String str5 = room4.getNumber();
         java.lang.String str6 = room4.toString();
         room4.setAvailable(true);
@@ -1347,7 +1347,7 @@ public class RoomRegressionTest0 {
     public void test085() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test085");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1367,7 +1367,7 @@ public class RoomRegressionTest0 {
     public void test086() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test086");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -1381,7 +1381,7 @@ public class RoomRegressionTest0 {
     public void test087() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test087");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -1398,7 +1398,7 @@ public class RoomRegressionTest0 {
     public void test088() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test088");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1417,7 +1417,7 @@ public class RoomRegressionTest0 {
     public void test089() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test089");
-        Room room4 = new Room((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
+        RoomClass room4 = new RoomClass((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
         java.lang.String str5 = room4.getNumber();
         room4.setPrice((double) ' ');
         double double8 = room4.getPrice();
@@ -1429,7 +1429,7 @@ public class RoomRegressionTest0 {
     public void test090() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test090");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -1450,7 +1450,7 @@ public class RoomRegressionTest0 {
     public void test091() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test091");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1466,7 +1466,7 @@ public class RoomRegressionTest0 {
     public void test092() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test092");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         double double5 = room4.getPrice();
         room4.setPrice((double) (byte) -1);
         room4.setAvailable(false);
@@ -1477,7 +1477,7 @@ public class RoomRegressionTest0 {
     public void test093() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test093");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1493,7 +1493,7 @@ public class RoomRegressionTest0 {
     public void test094() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test094");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         int int1 = room0.getId();
         java.lang.String str2 = room0.toString();
         org.junit.Assert.assertTrue("'" + int1 + "' != '" + 0 + "'", int1 == 0);
@@ -1504,7 +1504,7 @@ public class RoomRegressionTest0 {
     public void test095() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test095");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1535,7 +1535,7 @@ public class RoomRegressionTest0 {
     public void test096() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test096");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         java.lang.String str5 = room4.getNumber();
         boolean boolean6 = room4.isAvailable();
         java.lang.Class<?> wildcardClass7 = room4.getClass();
@@ -1548,7 +1548,7 @@ public class RoomRegressionTest0 {
     public void test097() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test097");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         int int4 = room0.getId();
@@ -1564,7 +1564,7 @@ public class RoomRegressionTest0 {
     public void test098() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test098");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -1581,7 +1581,7 @@ public class RoomRegressionTest0 {
     public void test099() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test099");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -1596,7 +1596,7 @@ public class RoomRegressionTest0 {
     public void test100() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test100");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -1612,7 +1612,7 @@ public class RoomRegressionTest0 {
     public void test101() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test101");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setPrice((double) (byte) 100);
@@ -1634,7 +1634,7 @@ public class RoomRegressionTest0 {
     public void test102() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test102");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setId(0);
@@ -1650,7 +1650,7 @@ public class RoomRegressionTest0 {
     public void test103() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test103");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1683,7 +1683,7 @@ public class RoomRegressionTest0 {
     public void test104() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test104");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1700,14 +1700,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test105");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) '4', "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", "Room{id=0, number='', type='', price=100.0, available=true}", 97.0d);
+        RoomClass room4 = new RoomClass((int) '4', "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", "Room{id=0, number='', type='', price=100.0, available=true}", 97.0d);
     }
 
     @Test
     public void test106() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test106");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -1728,7 +1728,7 @@ public class RoomRegressionTest0 {
     public void test107() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test107");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1747,7 +1747,7 @@ public class RoomRegressionTest0 {
     public void test108() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test108");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -1763,7 +1763,7 @@ public class RoomRegressionTest0 {
     public void test109() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test109");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setAvailable(true);
         java.lang.Class<?> wildcardClass3 = room0.getClass();
         org.junit.Assert.assertNotNull(wildcardClass3);
@@ -1773,7 +1773,7 @@ public class RoomRegressionTest0 {
     public void test110() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test110");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -1787,7 +1787,7 @@ public class RoomRegressionTest0 {
     public void test111() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test111");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -1812,7 +1812,7 @@ public class RoomRegressionTest0 {
     public void test112() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test112");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setPrice((double) (byte) 100);
@@ -1834,7 +1834,7 @@ public class RoomRegressionTest0 {
     public void test113() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test113");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -1847,7 +1847,7 @@ public class RoomRegressionTest0 {
     public void test114() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test114");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1868,7 +1868,7 @@ public class RoomRegressionTest0 {
     public void test115() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test115");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1884,7 +1884,7 @@ public class RoomRegressionTest0 {
     public void test116() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test116");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         java.lang.String str5 = room4.getType();
         room4.setPrice((double) (byte) -1);
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "Room{id=0, number='', type='hi!', price=10.0, available=true}" + "'", str5, "Room{id=0, number='', type='hi!', price=10.0, available=true}");
@@ -1894,7 +1894,7 @@ public class RoomRegressionTest0 {
     public void test117() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test117");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -1915,7 +1915,7 @@ public class RoomRegressionTest0 {
     public void test118() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test118");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1932,7 +1932,7 @@ public class RoomRegressionTest0 {
     public void test119() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test119");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1953,7 +1953,7 @@ public class RoomRegressionTest0 {
     public void test120() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test120");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         int int1 = room0.getId();
         room0.setPrice((double) 0);
         room0.setType("Room{id=-1, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='Room{id=0, number='', type='hi!', price=10.0, available=true}', price=97.0, available=true}");
@@ -1966,7 +1966,7 @@ public class RoomRegressionTest0 {
     public void test121() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test121");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         int int3 = room0.getId();
         room0.setType("Room{id=0, number='Room{id=1, number='', type='hi!', price=10.0, available=false}', type='Room{id=0, number='', type='', price=10.0, available=true}', price=10.0, available=true}");
@@ -1977,7 +1977,7 @@ public class RoomRegressionTest0 {
     public void test122() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test122");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -1998,7 +1998,7 @@ public class RoomRegressionTest0 {
     public void test123() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test123");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -2027,7 +2027,7 @@ public class RoomRegressionTest0 {
     public void test124() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test124");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         java.lang.String str5 = room4.getNumber();
         room4.setPrice((double) (-1));
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "hi!" + "'", str5, "hi!");
@@ -2037,7 +2037,7 @@ public class RoomRegressionTest0 {
     public void test125() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test125");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -2060,7 +2060,7 @@ public class RoomRegressionTest0 {
     public void test126() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test126");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -2077,7 +2077,7 @@ public class RoomRegressionTest0 {
     public void test127() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test127");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2101,14 +2101,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test128");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) (byte) 10, "Room{id=1, number='', type='hi!', price=10.0, available=false}", "Room{id=0, number='', type='', price=1.0, available=true}", (double) (byte) -1);
+        RoomClass room4 = new RoomClass((int) (byte) 10, "Room{id=1, number='', type='hi!', price=10.0, available=false}", "Room{id=0, number='', type='', price=1.0, available=true}", (double) (byte) -1);
     }
 
     @Test
     public void test129() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test129");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -2125,7 +2125,7 @@ public class RoomRegressionTest0 {
     public void test130() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test130");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -2141,7 +2141,7 @@ public class RoomRegressionTest0 {
     public void test131() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test131");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -2156,7 +2156,7 @@ public class RoomRegressionTest0 {
     public void test132() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test132");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -2174,7 +2174,7 @@ public class RoomRegressionTest0 {
     public void test133() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test133");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -2194,14 +2194,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test134");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) 'a', "Room{id=100, number='', type='', price=10.0, available=true}", "Room{id=1, number='', type='hi!', price=10.0, available=false}", (double) '#');
+        RoomClass room4 = new RoomClass((int) 'a', "Room{id=100, number='', type='', price=10.0, available=true}", "Room{id=1, number='', type='hi!', price=10.0, available=false}", (double) '#');
     }
 
     @Test
     public void test135() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test135");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2215,7 +2215,7 @@ public class RoomRegressionTest0 {
     public void test136() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test136");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         boolean boolean1 = room0.isAvailable();
         room0.setId((-1));
         boolean boolean4 = room0.isAvailable();
@@ -2230,7 +2230,7 @@ public class RoomRegressionTest0 {
     public void test137() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test137");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         double double5 = room4.getPrice();
         java.lang.String str6 = room4.getType();
         java.lang.String str7 = room4.getType();
@@ -2243,7 +2243,7 @@ public class RoomRegressionTest0 {
     public void test138() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test138");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2261,7 +2261,7 @@ public class RoomRegressionTest0 {
     public void test139() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test139");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         double double5 = room4.getPrice();
         room4.setPrice((double) (byte) -1);
         room4.setType("");
@@ -2276,7 +2276,7 @@ public class RoomRegressionTest0 {
     public void test140() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test140");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         double double5 = room4.getPrice();
         java.lang.String str6 = room4.toString();
         room4.setPrice(0.0d);
@@ -2289,7 +2289,7 @@ public class RoomRegressionTest0 {
     public void test141() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test141");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         java.lang.Class<?> wildcardClass4 = room0.getClass();
@@ -2301,7 +2301,7 @@ public class RoomRegressionTest0 {
     public void test142() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test142");
-        Room room4 = new Room((int) (byte) -1, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 10);
+        RoomClass room4 = new RoomClass((int) (byte) -1, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 10);
         boolean boolean5 = room4.isAvailable();
         double double6 = room4.getPrice();
         java.lang.String str7 = room4.toString();
@@ -2314,7 +2314,7 @@ public class RoomRegressionTest0 {
     public void test143() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test143");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setPrice((double) (byte) 100);
@@ -2331,7 +2331,7 @@ public class RoomRegressionTest0 {
     public void test144() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test144");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         int int1 = room0.getId();
         room0.setPrice((double) 0);
         int int4 = room0.getId();
@@ -2343,7 +2343,7 @@ public class RoomRegressionTest0 {
     public void test145() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test145");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2368,7 +2368,7 @@ public class RoomRegressionTest0 {
     public void test146() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test146");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2383,7 +2383,7 @@ public class RoomRegressionTest0 {
     public void test147() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test147");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setPrice((double) (byte) 100);
@@ -2404,14 +2404,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test148");
         @SuppressWarnings("unused")
-        Room room4 = new Room(0, "Room{id=0, number='', type='', price=100.0, available=true}", "Room{id=100, number='', type='Room{id=0, number='', type='', price=10.0, available=true}', price=0.0, available=true}", (double) 10);
+        RoomClass room4 = new RoomClass(0, "Room{id=0, number='', type='', price=100.0, available=true}", "Room{id=100, number='', type='Room{id=0, number='', type='', price=10.0, available=true}', price=0.0, available=true}", (double) 10);
     }
 
     @Test
     public void test149() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test149");
-        Room room4 = new Room((int) (byte) 0, "", "Room{id=0, number='', type='', price=100.0, available=true}", 97.0d);
+        RoomClass room4 = new RoomClass((int) (byte) 0, "", "Room{id=0, number='', type='', price=100.0, available=true}", 97.0d);
         room4.setNumber("Room{id=0, number='', type='', price=1.0, available=true}");
         java.lang.String str7 = room4.getType();
         org.junit.Assert.assertEquals("'" + str7 + "' != '" + "Room{id=0, number='', type='', price=100.0, available=true}" + "'", str7, "Room{id=0, number='', type='', price=100.0, available=true}");
@@ -2421,7 +2421,7 @@ public class RoomRegressionTest0 {
     public void test150() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test150");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2438,7 +2438,7 @@ public class RoomRegressionTest0 {
     public void test151() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test151");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setId(0);
@@ -2452,7 +2452,7 @@ public class RoomRegressionTest0 {
     public void test152() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test152");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -2473,7 +2473,7 @@ public class RoomRegressionTest0 {
     public void test153() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test153");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setId(0);
@@ -2488,7 +2488,7 @@ public class RoomRegressionTest0 {
     public void test154() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test154");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2507,7 +2507,7 @@ public class RoomRegressionTest0 {
     public void test155() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test155");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2521,7 +2521,7 @@ public class RoomRegressionTest0 {
     public void test156() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test156");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -2544,7 +2544,7 @@ public class RoomRegressionTest0 {
     public void test157() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test157");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -2562,7 +2562,7 @@ public class RoomRegressionTest0 {
     public void test158() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test158");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -2585,7 +2585,7 @@ public class RoomRegressionTest0 {
     public void test159() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test159");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2600,7 +2600,7 @@ public class RoomRegressionTest0 {
     public void test160() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test160");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setId(0);
@@ -2617,7 +2617,7 @@ public class RoomRegressionTest0 {
     public void test161() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test161");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setType("hi!");
@@ -2630,7 +2630,7 @@ public class RoomRegressionTest0 {
     public void test162() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test162");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -2654,14 +2654,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test163");
         @SuppressWarnings("unused")
-        Room room4 = new Room(0, "Room{id=0, number='', type='', price=100.0, available=true}", "Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}", (double) (-1L));
+        RoomClass room4 = new RoomClass(0, "Room{id=0, number='', type='', price=100.0, available=true}", "Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}", (double) (-1L));
     }
 
     @Test
     public void test164() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test164");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         boolean boolean1 = room0.isAvailable();
         room0.setId((-1));
         boolean boolean4 = room0.isAvailable();
@@ -2675,7 +2675,7 @@ public class RoomRegressionTest0 {
     public void test165() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test165");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         int int3 = room0.getId();
         room0.setAvailable(false);
@@ -2687,7 +2687,7 @@ public class RoomRegressionTest0 {
     public void test166() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test166");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2716,7 +2716,7 @@ public class RoomRegressionTest0 {
     public void test167() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test167");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2732,7 +2732,7 @@ public class RoomRegressionTest0 {
     public void test168() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test168");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) 10L);
         int int4 = room0.getId();
@@ -2747,7 +2747,7 @@ public class RoomRegressionTest0 {
     public void test169() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test169");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2768,7 +2768,7 @@ public class RoomRegressionTest0 {
     public void test170() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test170");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2791,7 +2791,7 @@ public class RoomRegressionTest0 {
     public void test171() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test171");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -2804,7 +2804,7 @@ public class RoomRegressionTest0 {
     public void test172() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test172");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) 10L);
         java.lang.Class<?> wildcardClass4 = room0.getClass();
@@ -2816,7 +2816,7 @@ public class RoomRegressionTest0 {
     public void test173() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test173");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2836,7 +2836,7 @@ public class RoomRegressionTest0 {
     public void test174() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test174");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -2852,7 +2852,7 @@ public class RoomRegressionTest0 {
     public void test175() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test175");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) 10L);
         int int4 = room0.getId();
@@ -2870,7 +2870,7 @@ public class RoomRegressionTest0 {
     public void test176() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test176");
-        Room room4 = new Room((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
+        RoomClass room4 = new RoomClass((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
         room4.setPrice(0.0d);
     }
 
@@ -2878,7 +2878,7 @@ public class RoomRegressionTest0 {
     public void test177() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test177");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2897,7 +2897,7 @@ public class RoomRegressionTest0 {
     public void test178() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test178");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         java.lang.String str5 = room4.getType();
         int int6 = room4.getId();
         int int7 = room4.getId();
@@ -2916,7 +2916,7 @@ public class RoomRegressionTest0 {
     public void test179() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test179");
-        Room room4 = new Room((int) (byte) 10, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='', price=100.0, available=true}", (double) (short) 0);
+        RoomClass room4 = new RoomClass((int) (byte) 10, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='', price=100.0, available=true}", (double) (short) 0);
         int int5 = room4.getId();
         org.junit.Assert.assertTrue("'" + int5 + "' != '" + 10 + "'", int5 == 10);
     }
@@ -2925,7 +2925,7 @@ public class RoomRegressionTest0 {
     public void test180() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test180");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -2943,7 +2943,7 @@ public class RoomRegressionTest0 {
     public void test181() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test181");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         room4.setId((int) (short) -1);
         room4.setPrice((double) 100.0f);
         java.lang.String str9 = room4.getType();
@@ -2955,7 +2955,7 @@ public class RoomRegressionTest0 {
     public void test182() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test182");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -2974,7 +2974,7 @@ public class RoomRegressionTest0 {
     public void test183() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test183");
-        Room room4 = new Room((int) ' ', "hi!", "Room{id=0, number='', type='', price=1.0, available=true}", (double) (-1L));
+        RoomClass room4 = new RoomClass((int) ' ', "hi!", "Room{id=0, number='', type='', price=1.0, available=true}", (double) (-1L));
         int int5 = room4.getId();
         room4.setNumber("Room{id=0, number='', type='', price=100.0, available=true}");
         org.junit.Assert.assertTrue("'" + int5 + "' != '" + 32 + "'", int5 == 32);
@@ -2984,7 +2984,7 @@ public class RoomRegressionTest0 {
     public void test184() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test184");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3001,7 +3001,7 @@ public class RoomRegressionTest0 {
     public void test185() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test185");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3022,7 +3022,7 @@ public class RoomRegressionTest0 {
     public void test186() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test186");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3048,7 +3048,7 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test187");
         @SuppressWarnings("unused")
-        Room room4 = new Room((-1), "Room{id=-1, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='Room{id=0, number='', type='hi!', price=10.0, available=true}', price=97.0, available=true}", "Room{id=100, number='', type='', price=10.0, available=true}", (double) 0.0f);
+        RoomClass room4 = new RoomClass((-1), "Room{id=-1, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='Room{id=0, number='', type='hi!', price=10.0, available=true}', price=97.0, available=true}", "Room{id=100, number='', type='', price=10.0, available=true}", (double) 0.0f);
     }
 
     @Test
@@ -3056,14 +3056,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test188");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) (short) 1, "Room{id=10, number='', type='', price=100.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 100.0f);
+        RoomClass room4 = new RoomClass((int) (short) 1, "Room{id=10, number='', type='', price=100.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 100.0f);
     }
 
     @Test
     public void test189() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test189");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -3081,7 +3081,7 @@ public class RoomRegressionTest0 {
     public void test190() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test190");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -3108,7 +3108,7 @@ public class RoomRegressionTest0 {
     public void test191() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test191");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3133,7 +3133,7 @@ public class RoomRegressionTest0 {
     public void test192() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test192");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setAvailable(true);
         boolean boolean3 = room0.isAvailable();
         org.junit.Assert.assertTrue("'" + boolean3 + "' != '" + true + "'", boolean3 == true);
@@ -3143,7 +3143,7 @@ public class RoomRegressionTest0 {
     public void test193() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test193");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3164,7 +3164,7 @@ public class RoomRegressionTest0 {
     public void test194() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test194");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3182,7 +3182,7 @@ public class RoomRegressionTest0 {
     public void test195() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test195");
-        Room room4 = new Room((int) (short) 10, "Room{id=0, number='', type='', price=1.0, available=true}", "Room{id=-1, number='hi!', type='', price=10.0, available=true}", (double) 0.0f);
+        RoomClass room4 = new RoomClass((int) (short) 10, "Room{id=0, number='', type='', price=1.0, available=true}", "Room{id=-1, number='hi!', type='', price=10.0, available=true}", (double) 0.0f);
         room4.setType("Room{id=0, number='Room{id=0, number='', type='', price=10.0, available=true}', type='Room{id=0, number='', type='hi!', price=10.0, available=true}', price=32.0, available=true}");
         java.lang.Class<?> wildcardClass7 = room4.getClass();
         org.junit.Assert.assertNotNull(wildcardClass7);
@@ -3192,7 +3192,7 @@ public class RoomRegressionTest0 {
     public void test196() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test196");
-        Room room4 = new Room((int) ' ', "hi!", "Room{id=0, number='', type='', price=1.0, available=true}", (double) (-1L));
+        RoomClass room4 = new RoomClass((int) ' ', "hi!", "Room{id=0, number='', type='', price=1.0, available=true}", (double) (-1L));
         int int5 = room4.getId();
         room4.setId((int) (byte) 10);
         org.junit.Assert.assertTrue("'" + int5 + "' != '" + 32 + "'", int5 == 32);
@@ -3202,7 +3202,7 @@ public class RoomRegressionTest0 {
     public void test197() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test197");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3219,7 +3219,7 @@ public class RoomRegressionTest0 {
     public void test198() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test198");
-        Room room4 = new Room((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
+        RoomClass room4 = new RoomClass((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
         java.lang.String str5 = room4.getNumber();
         java.lang.String str6 = room4.toString();
         room4.setNumber("");
@@ -3233,7 +3233,7 @@ public class RoomRegressionTest0 {
     public void test199() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test199");
-        Room room4 = new Room((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
+        RoomClass room4 = new RoomClass((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
         java.lang.String str5 = room4.getNumber();
         java.lang.String str6 = room4.toString();
         room4.setNumber("");
@@ -3247,7 +3247,7 @@ public class RoomRegressionTest0 {
     public void test200() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test200");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         int int3 = room0.getId();
         room0.setAvailable(false);
@@ -3260,7 +3260,7 @@ public class RoomRegressionTest0 {
     public void test201() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test201");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         boolean boolean1 = room0.isAvailable();
         room0.setId((-1));
         boolean boolean4 = room0.isAvailable();
@@ -3276,7 +3276,7 @@ public class RoomRegressionTest0 {
     public void test202() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test202");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         boolean boolean1 = room0.isAvailable();
         room0.setId((-1));
         boolean boolean4 = room0.isAvailable();
@@ -3291,7 +3291,7 @@ public class RoomRegressionTest0 {
     public void test203() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test203");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         java.lang.String str5 = room4.getType();
         int int6 = room4.getId();
         int int7 = room4.getId();
@@ -3310,7 +3310,7 @@ public class RoomRegressionTest0 {
     public void test204() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test204");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -3330,7 +3330,7 @@ public class RoomRegressionTest0 {
     public void test205() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test205");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         java.lang.String str5 = room4.getType();
         double double6 = room4.getPrice();
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "Room{id=0, number='', type='hi!', price=10.0, available=true}" + "'", str5, "Room{id=0, number='', type='hi!', price=10.0, available=true}");
@@ -3341,7 +3341,7 @@ public class RoomRegressionTest0 {
     public void test206() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test206");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         java.lang.String str5 = room4.getNumber();
         java.lang.Class<?> wildcardClass6 = room4.getClass();
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "Room{id=0, number='', type='', price=10.0, available=true}" + "'", str5, "Room{id=0, number='', type='', price=10.0, available=true}");
@@ -3352,7 +3352,7 @@ public class RoomRegressionTest0 {
     public void test207() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test207");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -3371,7 +3371,7 @@ public class RoomRegressionTest0 {
     public void test208() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test208");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -3396,7 +3396,7 @@ public class RoomRegressionTest0 {
     public void test209() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test209");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -3413,7 +3413,7 @@ public class RoomRegressionTest0 {
     public void test210() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test210");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3428,7 +3428,7 @@ public class RoomRegressionTest0 {
     public void test211() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test211");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -3457,7 +3457,7 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test212");
         @SuppressWarnings("unused")
-        Room room4 = new Room(1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='', price=0.0, available=true}", (double) (-1L));
+        RoomClass room4 = new RoomClass(1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='', price=0.0, available=true}", (double) (-1L));
     }
 
     @Test
@@ -3465,14 +3465,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test213");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) (short) 100, "Room{id=0, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='', price=100.0, available=false}", "Room{id=0, number='', type='hi!', price=0.0, available=true}", (double) 10.0f);
+        RoomClass room4 = new RoomClass((int) (short) 100, "Room{id=0, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='', price=100.0, available=false}", "Room{id=0, number='', type='hi!', price=0.0, available=true}", (double) 10.0f);
     }
 
     @Test
     public void test214() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test214");
-        Room room4 = new Room((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
+        RoomClass room4 = new RoomClass((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
         room4.setAvailable(false);
     }
 
@@ -3480,7 +3480,7 @@ public class RoomRegressionTest0 {
     public void test215() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test215");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -3498,14 +3498,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test216");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) (short) -1, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='', price=100.0, available=false}", (double) 0);
+        RoomClass room4 = new RoomClass((int) (short) -1, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='', price=100.0, available=false}", (double) 0);
     }
 
     @Test
     public void test217() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test217");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3536,7 +3536,7 @@ public class RoomRegressionTest0 {
     public void test218() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test218");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         java.lang.String str5 = room4.getType();
         int int6 = room4.getId();
         int int7 = room4.getId();
@@ -3551,7 +3551,7 @@ public class RoomRegressionTest0 {
     public void test219() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test219");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3569,7 +3569,7 @@ public class RoomRegressionTest0 {
     public void test220() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test220");
-        Room room4 = new Room((int) ' ', "hi!", "Room{id=0, number='', type='', price=1.0, available=true}", (double) (-1L));
+        RoomClass room4 = new RoomClass((int) ' ', "hi!", "Room{id=0, number='', type='', price=1.0, available=true}", (double) (-1L));
         room4.setPrice((double) 32);
         java.lang.String str7 = room4.getNumber();
         org.junit.Assert.assertEquals("'" + str7 + "' != '" + "hi!" + "'", str7, "hi!");
@@ -3579,7 +3579,7 @@ public class RoomRegressionTest0 {
     public void test221() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test221");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3610,14 +3610,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test222");
         @SuppressWarnings("unused")
-        Room room4 = new Room(10, "", "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", (double) (byte) 1);
+        RoomClass room4 = new RoomClass(10, "", "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", (double) (byte) 1);
     }
 
     @Test
     public void test223() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test223");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3637,7 +3637,7 @@ public class RoomRegressionTest0 {
     public void test224() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test224");
-        Room room4 = new Room((int) (byte) -1, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 10);
+        RoomClass room4 = new RoomClass((int) (byte) -1, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 10);
         double double5 = room4.getPrice();
         room4.setId(1);
         org.junit.Assert.assertTrue("'" + double5 + "' != '" + 10.0d + "'", double5 == 10.0d);
@@ -3647,7 +3647,7 @@ public class RoomRegressionTest0 {
     public void test225() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test225");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setAvailable(true);
         double double3 = room0.getPrice();
         room0.setAvailable(false);
@@ -3658,7 +3658,7 @@ public class RoomRegressionTest0 {
     public void test226() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test226");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         double double5 = room4.getPrice();
         java.lang.String str6 = room4.toString();
         room4.setType("");
@@ -3670,7 +3670,7 @@ public class RoomRegressionTest0 {
     public void test227() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test227");
-        Room room4 = new Room(0, "", "Room{id=0, number='', type='Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}', price=0.0, available=false}", (double) 10.0f);
+        RoomClass room4 = new RoomClass(0, "", "Room{id=0, number='', type='Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}', price=0.0, available=false}", (double) 10.0f);
         java.lang.String str5 = room4.getNumber();
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "" + "'", str5, "");
     }
@@ -3679,7 +3679,7 @@ public class RoomRegressionTest0 {
     public void test228() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test228");
-        Room room4 = new Room((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
+        RoomClass room4 = new RoomClass((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
         java.lang.String str5 = room4.getNumber();
         room4.setPrice((double) ' ');
         java.lang.Class<?> wildcardClass8 = room4.getClass();
@@ -3692,14 +3692,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test229");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) '#', "Room{id=-1, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='Room{id=0, number='', type='hi!', price=10.0, available=true}', price=97.0, available=true}", "hi!", (double) (short) 100);
+        RoomClass room4 = new RoomClass((int) '#', "Room{id=-1, number='Room{id=0, number='hi!', type='', price=10.0, available=true}', type='Room{id=0, number='', type='hi!', price=10.0, available=true}', price=97.0, available=true}", "hi!", (double) (short) 100);
     }
 
     @Test
     public void test230() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test230");
-        Room room4 = new Room((int) ' ', "hi!", "Room{id=0, number='', type='', price=1.0, available=true}", (double) (-1L));
+        RoomClass room4 = new RoomClass((int) ' ', "hi!", "Room{id=0, number='', type='', price=1.0, available=true}", (double) (-1L));
         int int5 = room4.getId();
         double double6 = room4.getPrice();
         org.junit.Assert.assertTrue("'" + int5 + "' != '" + 32 + "'", int5 == 32);
@@ -3710,7 +3710,7 @@ public class RoomRegressionTest0 {
     public void test231() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test231");
-        Room room4 = new Room((int) (short) 10, "", "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='hi!', price=10.0, available=true}", (double) 0.0f);
+        RoomClass room4 = new RoomClass((int) (short) 10, "", "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='hi!', price=10.0, available=true}", (double) 0.0f);
         java.lang.String str5 = room4.getType();
         room4.setPrice(100.0d);
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='hi!', price=10.0, available=true}" + "'", str5, "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='hi!', price=10.0, available=true}");
@@ -3720,7 +3720,7 @@ public class RoomRegressionTest0 {
     public void test232() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test232");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3737,7 +3737,7 @@ public class RoomRegressionTest0 {
     public void test233() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test233");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         boolean boolean1 = room0.isAvailable();
         room0.setId((-1));
         int int4 = room0.getId();
@@ -3751,7 +3751,7 @@ public class RoomRegressionTest0 {
     public void test234() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test234");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3769,7 +3769,7 @@ public class RoomRegressionTest0 {
     public void test235() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test235");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3787,7 +3787,7 @@ public class RoomRegressionTest0 {
     public void test236() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test236");
-        Room room4 = new Room(0, "Room{id=0, number='', type='', price=100.0, available=true}", "Room{id=0, number='', type='hi!', price=0.0, available=false}", (double) 0.0f);
+        RoomClass room4 = new RoomClass(0, "Room{id=0, number='', type='', price=100.0, available=true}", "Room{id=0, number='', type='hi!', price=0.0, available=false}", (double) 0.0f);
         room4.setId((int) (byte) 0);
     }
 
@@ -3795,7 +3795,7 @@ public class RoomRegressionTest0 {
     public void test237() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test237");
-        Room room4 = new Room((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
+        RoomClass room4 = new RoomClass((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
         java.lang.String str5 = room4.toString();
         java.lang.String str6 = room4.getNumber();
         boolean boolean7 = room4.isAvailable();
@@ -3810,7 +3810,7 @@ public class RoomRegressionTest0 {
     public void test238() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test238");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -3831,7 +3831,7 @@ public class RoomRegressionTest0 {
     public void test239() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test239");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) 10L);
         int int4 = room0.getId();
@@ -3846,7 +3846,7 @@ public class RoomRegressionTest0 {
     public void test240() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test240");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         java.lang.String str5 = room4.getNumber();
         room4.setAvailable(true);
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "Room{id=0, number='', type='', price=10.0, available=true}" + "'", str5, "Room{id=0, number='', type='', price=10.0, available=true}");
@@ -3856,7 +3856,7 @@ public class RoomRegressionTest0 {
     public void test241() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test241");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3872,7 +3872,7 @@ public class RoomRegressionTest0 {
     public void test242() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test242");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -3890,7 +3890,7 @@ public class RoomRegressionTest0 {
     public void test243() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test243");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setPrice((double) (byte) 100);
@@ -3902,7 +3902,7 @@ public class RoomRegressionTest0 {
     public void test244() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test244");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -3927,7 +3927,7 @@ public class RoomRegressionTest0 {
     public void test245() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test245");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -3942,7 +3942,7 @@ public class RoomRegressionTest0 {
     public void test246() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test246");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -3971,7 +3971,7 @@ public class RoomRegressionTest0 {
     public void test247() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test247");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -3985,7 +3985,7 @@ public class RoomRegressionTest0 {
     public void test248() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test248");
-        Room room4 = new Room((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
+        RoomClass room4 = new RoomClass((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
         double double5 = room4.getPrice();
         int int6 = room4.getId();
         java.lang.String str7 = room4.toString();
@@ -3998,7 +3998,7 @@ public class RoomRegressionTest0 {
     public void test249() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test249");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4026,14 +4026,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test250");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) (byte) 1, "Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}", "Room{id=100, number='', type='Room{id=0, number='', type='', price=10.0, available=true}', price=0.0, available=true}", (double) 'a');
+        RoomClass room4 = new RoomClass((int) (byte) 1, "Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}", "Room{id=100, number='', type='Room{id=0, number='', type='', price=10.0, available=true}', price=0.0, available=true}", (double) 'a');
     }
 
     @Test
     public void test251() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test251");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4056,7 +4056,7 @@ public class RoomRegressionTest0 {
     public void test252() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test252");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4079,7 +4079,7 @@ public class RoomRegressionTest0 {
     public void test253() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test253");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4097,7 +4097,7 @@ public class RoomRegressionTest0 {
     public void test254() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test254");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setId(0);
@@ -4115,7 +4115,7 @@ public class RoomRegressionTest0 {
     public void test255() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test255");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         java.lang.String str5 = room4.getType();
         int int6 = room4.getId();
         int int7 = room4.getId();
@@ -4130,14 +4130,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test256");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) ' ', "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='', price=10.0, available=true}", (double) (short) 1);
+        RoomClass room4 = new RoomClass((int) ' ', "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='', price=10.0, available=true}", (double) (short) 1);
     }
 
     @Test
     public void test257() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test257");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         java.lang.String str4 = room0.getNumber();
@@ -4151,14 +4151,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test258");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) (short) -1, "Room{id=0, number='', type='hi!', price=0.0, available=true}", "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='hi!', price=10.0, available=true}", (double) 100);
+        RoomClass room4 = new RoomClass((int) (short) -1, "Room{id=0, number='', type='hi!', price=0.0, available=true}", "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='hi!', price=10.0, available=true}", (double) 100);
     }
 
     @Test
     public void test259() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test259");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4176,7 +4176,7 @@ public class RoomRegressionTest0 {
     public void test260() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test260");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         java.lang.String str5 = room4.getType();
         int int6 = room4.getId();
         int int7 = room4.getId();
@@ -4195,7 +4195,7 @@ public class RoomRegressionTest0 {
     public void test261() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test261");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4215,7 +4215,7 @@ public class RoomRegressionTest0 {
     public void test262() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test262");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4234,7 +4234,7 @@ public class RoomRegressionTest0 {
     public void test263() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test263");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4254,7 +4254,7 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test264");
         @SuppressWarnings("unused")
-        Room room4 = new Room(100, "Room{id=-1, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 100.0f);
+        RoomClass room4 = new RoomClass(100, "Room{id=-1, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 100.0f);
     }
 
     @Test
@@ -4262,14 +4262,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test265");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) '4', "Room{id=0, number='', type='', price=1.0, available=true}", "Room{id=0, number='', type='', price=100.0, available=true}", (double) 10.0f);
+        RoomClass room4 = new RoomClass((int) '4', "Room{id=0, number='', type='', price=1.0, available=true}", "Room{id=0, number='', type='', price=100.0, available=true}", (double) 10.0f);
     }
 
     @Test
     public void test266() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test266");
-        Room room4 = new Room((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
+        RoomClass room4 = new RoomClass((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
         boolean boolean5 = room4.isAvailable();
         room4.setPrice((double) (short) 0);
         java.lang.String str8 = room4.toString();
@@ -4281,7 +4281,7 @@ public class RoomRegressionTest0 {
     public void test267() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test267");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setId(0);
@@ -4295,7 +4295,7 @@ public class RoomRegressionTest0 {
     public void test268() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test268");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         double double5 = room4.getPrice();
         room4.setPrice((double) (byte) -1);
         room4.setType("");
@@ -4309,7 +4309,7 @@ public class RoomRegressionTest0 {
     public void test269() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test269");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4327,7 +4327,7 @@ public class RoomRegressionTest0 {
     public void test270() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test270");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setId(0);
@@ -4341,7 +4341,7 @@ public class RoomRegressionTest0 {
     public void test271() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test271");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setId(0);
@@ -4358,7 +4358,7 @@ public class RoomRegressionTest0 {
     public void test272() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test272");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4378,7 +4378,7 @@ public class RoomRegressionTest0 {
     public void test273() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test273");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4395,7 +4395,7 @@ public class RoomRegressionTest0 {
     public void test274() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test274");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4416,7 +4416,7 @@ public class RoomRegressionTest0 {
     public void test275() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test275");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4433,7 +4433,7 @@ public class RoomRegressionTest0 {
     public void test276() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test276");
-        Room room4 = new Room((int) (byte) -1, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 10);
+        RoomClass room4 = new RoomClass((int) (byte) -1, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 10);
         boolean boolean5 = room4.isAvailable();
         room4.setAvailable(false);
         room4.setAvailable(false);
@@ -4445,7 +4445,7 @@ public class RoomRegressionTest0 {
     public void test277() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test277");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4469,7 +4469,7 @@ public class RoomRegressionTest0 {
     public void test278() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test278");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setPrice((double) (byte) 100);
@@ -4492,7 +4492,7 @@ public class RoomRegressionTest0 {
     public void test279() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test279");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4510,7 +4510,7 @@ public class RoomRegressionTest0 {
     public void test280() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test280");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4527,7 +4527,7 @@ public class RoomRegressionTest0 {
     public void test281() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test281");
-        Room room4 = new Room((int) (short) 10, "Room{id=0, number='', type='', price=1.0, available=true}", "Room{id=-1, number='hi!', type='', price=10.0, available=true}", (double) 0.0f);
+        RoomClass room4 = new RoomClass((int) (short) 10, "Room{id=0, number='', type='', price=1.0, available=true}", "Room{id=-1, number='hi!', type='', price=10.0, available=true}", (double) 0.0f);
         room4.setType("Room{id=0, number='Room{id=0, number='', type='', price=10.0, available=true}', type='Room{id=0, number='', type='hi!', price=10.0, available=true}', price=32.0, available=true}");
         room4.setAvailable(false);
     }
@@ -4536,7 +4536,7 @@ public class RoomRegressionTest0 {
     public void test282() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test282");
-        Room room4 = new Room((-1), "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='', price=10.0, available=true}", (double) 100L);
+        RoomClass room4 = new RoomClass((-1), "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='', price=10.0, available=true}", (double) 100L);
         room4.setId((-1));
     }
 
@@ -4544,7 +4544,7 @@ public class RoomRegressionTest0 {
     public void test283() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test283");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4562,7 +4562,7 @@ public class RoomRegressionTest0 {
     public void test284() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test284");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4597,7 +4597,7 @@ public class RoomRegressionTest0 {
     public void test285() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test285");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4614,7 +4614,7 @@ public class RoomRegressionTest0 {
     public void test286() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test286");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setPrice((double) (byte) 100);
@@ -4633,7 +4633,7 @@ public class RoomRegressionTest0 {
     public void test287() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test287");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -4652,7 +4652,7 @@ public class RoomRegressionTest0 {
     public void test288() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test288");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4669,7 +4669,7 @@ public class RoomRegressionTest0 {
     public void test289() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test289");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4686,7 +4686,7 @@ public class RoomRegressionTest0 {
     public void test290() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test290");
-        Room room4 = new Room((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
+        RoomClass room4 = new RoomClass((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
         java.lang.String str5 = room4.getNumber();
         org.junit.Assert.assertEquals("'" + str5 + "' != '" + "Room{id=0, number='hi!', type='', price=10.0, available=true}" + "'", str5, "Room{id=0, number='hi!', type='', price=10.0, available=true}");
     }
@@ -4695,7 +4695,7 @@ public class RoomRegressionTest0 {
     public void test291() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test291");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4716,7 +4716,7 @@ public class RoomRegressionTest0 {
     public void test292() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test292");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4733,7 +4733,7 @@ public class RoomRegressionTest0 {
     public void test293() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test293");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         int int3 = room0.getId();
         room0.setId(0);
@@ -4744,7 +4744,7 @@ public class RoomRegressionTest0 {
     public void test294() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test294");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4762,7 +4762,7 @@ public class RoomRegressionTest0 {
     public void test295() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test295");
-        Room room4 = new Room((int) (short) -1, "hi!", "", (double) (short) 10);
+        RoomClass room4 = new RoomClass((int) (short) -1, "hi!", "", (double) (short) 10);
         double double5 = room4.getPrice();
         java.lang.String str6 = room4.toString();
         java.lang.String str7 = room4.getNumber();
@@ -4775,7 +4775,7 @@ public class RoomRegressionTest0 {
     public void test296() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test296");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4800,7 +4800,7 @@ public class RoomRegressionTest0 {
     public void test297() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test297");
-        Room room4 = new Room(100, "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", "Room{id=-1, number='hi!', type='', price=10.0, available=true}", 100.0d);
+        RoomClass room4 = new RoomClass(100, "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", "Room{id=-1, number='hi!', type='', price=10.0, available=true}", 100.0d);
         java.lang.Class<?> wildcardClass5 = room4.getClass();
         org.junit.Assert.assertNotNull(wildcardClass5);
     }
@@ -4809,7 +4809,7 @@ public class RoomRegressionTest0 {
     public void test298() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test298");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4833,7 +4833,7 @@ public class RoomRegressionTest0 {
     public void test299() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test299");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4854,14 +4854,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test300");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) (short) -1, "", "Room{id=0, number='', type='Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}', price=0.0, available=false}", (double) (byte) 100);
+        RoomClass room4 = new RoomClass((int) (short) -1, "", "Room{id=0, number='', type='Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}', price=0.0, available=false}", (double) (byte) 100);
     }
 
     @Test
     public void test301() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test301");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4885,7 +4885,7 @@ public class RoomRegressionTest0 {
     public void test302() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test302");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4914,7 +4914,7 @@ public class RoomRegressionTest0 {
     public void test303() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test303");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4937,7 +4937,7 @@ public class RoomRegressionTest0 {
     public void test304() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test304");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -4956,7 +4956,7 @@ public class RoomRegressionTest0 {
     public void test305() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test305");
-        Room room4 = new Room((int) (short) 10, "Room{id=0, number='', type='', price=1.0, available=true}", "Room{id=-1, number='hi!', type='', price=10.0, available=true}", (double) 0.0f);
+        RoomClass room4 = new RoomClass((int) (short) 10, "Room{id=0, number='', type='', price=1.0, available=true}", "Room{id=-1, number='hi!', type='', price=10.0, available=true}", (double) 0.0f);
         room4.setType("Room{id=0, number='Room{id=0, number='', type='', price=10.0, available=true}', type='Room{id=0, number='', type='hi!', price=10.0, available=true}', price=32.0, available=true}");
         java.lang.String str7 = room4.getType();
         org.junit.Assert.assertEquals("'" + str7 + "' != '" + "Room{id=0, number='Room{id=0, number='', type='', price=10.0, available=true}', type='Room{id=0, number='', type='hi!', price=10.0, available=true}', price=32.0, available=true}" + "'", str7, "Room{id=0, number='Room{id=0, number='', type='', price=10.0, available=true}', type='Room{id=0, number='', type='hi!', price=10.0, available=true}', price=32.0, available=true}");
@@ -4967,14 +4967,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test306");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) 'a', "hi!", "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", (double) (short) 0);
+        RoomClass room4 = new RoomClass((int) 'a', "hi!", "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", (double) (short) 0);
     }
 
     @Test
     public void test307() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test307");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -4989,7 +4989,7 @@ public class RoomRegressionTest0 {
     public void test308() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test308");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -5008,7 +5008,7 @@ public class RoomRegressionTest0 {
     public void test309() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test309");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -5041,7 +5041,7 @@ public class RoomRegressionTest0 {
     public void test310() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test310");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -5072,7 +5072,7 @@ public class RoomRegressionTest0 {
     public void test311() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test311");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -5090,7 +5090,7 @@ public class RoomRegressionTest0 {
     public void test312() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test312");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         room4.setPrice((double) (byte) 1);
         java.lang.String str7 = room4.getNumber();
         room4.setType("Room{id=0, number='', type='hi!', price=0.0, available=true}");
@@ -5101,7 +5101,7 @@ public class RoomRegressionTest0 {
     public void test313() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test313");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -5118,7 +5118,7 @@ public class RoomRegressionTest0 {
     public void test314() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test314");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setType("hi!");
@@ -5131,7 +5131,7 @@ public class RoomRegressionTest0 {
     public void test315() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test315");
-        Room room4 = new Room((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
+        RoomClass room4 = new RoomClass((int) (byte) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=10, number='', type='', price=100.0, available=true}", (double) 0L);
         room4.setAvailable(true);
     }
 
@@ -5139,7 +5139,7 @@ public class RoomRegressionTest0 {
     public void test316() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test316");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -5160,7 +5160,7 @@ public class RoomRegressionTest0 {
     public void test317() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test317");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -5177,7 +5177,7 @@ public class RoomRegressionTest0 {
     public void test318() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test318");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         boolean boolean1 = room0.isAvailable();
         room0.setId((-1));
         boolean boolean4 = room0.isAvailable();
@@ -5193,7 +5193,7 @@ public class RoomRegressionTest0 {
     public void test319() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test319");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -5210,7 +5210,7 @@ public class RoomRegressionTest0 {
     public void test320() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test320");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setId(0);
@@ -5227,14 +5227,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test321");
         @SuppressWarnings("unused")
-        Room room4 = new Room(1, "Room{id=0, number='', type='hi!', price=0.0, available=false}", "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", (double) (byte) 100);
+        RoomClass room4 = new RoomClass(1, "Room{id=0, number='', type='hi!', price=0.0, available=false}", "Room{id=0, number='hi!', type='hi!', price=10.0, available=true}", (double) (byte) 100);
     }
 
     @Test
     public void test322() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test322");
-        Room room4 = new Room((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
+        RoomClass room4 = new RoomClass((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
         double double5 = room4.getPrice();
         int int6 = room4.getId();
         java.lang.String str7 = room4.getNumber();
@@ -5248,14 +5248,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test323");
         @SuppressWarnings("unused")
-        Room room4 = new Room(0, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "", (double) '#');
+        RoomClass room4 = new RoomClass(0, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "", (double) '#');
     }
 
     @Test
     public void test324() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test324");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setPrice((double) (byte) 100);
@@ -5274,7 +5274,7 @@ public class RoomRegressionTest0 {
     public void test325() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test325");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -5292,7 +5292,7 @@ public class RoomRegressionTest0 {
     public void test326() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test326");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -5309,7 +5309,7 @@ public class RoomRegressionTest0 {
     public void test327() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test327");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -5325,7 +5325,7 @@ public class RoomRegressionTest0 {
     public void test328() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test328");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setType("hi!");
@@ -5345,7 +5345,7 @@ public class RoomRegressionTest0 {
     public void test329() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test329");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         room0.setType("");
         java.lang.String str3 = room0.getNumber();
         room0.setPrice((double) 100.0f);
@@ -5364,7 +5364,7 @@ public class RoomRegressionTest0 {
     public void test330() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test330");
-        Room room4 = new Room((int) (short) 10, "hi!", "Room{id=1, number='', type='hi!', price=10.0, available=false}", 97.0d);
+        RoomClass room4 = new RoomClass((int) (short) 10, "hi!", "Room{id=1, number='', type='hi!', price=10.0, available=false}", 97.0d);
         room4.setType("Room{id=0, number='', type='hi!', price=0.0, available=false}");
     }
 
@@ -5372,7 +5372,7 @@ public class RoomRegressionTest0 {
     public void test331() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test331");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         room0.setId(0);
@@ -5391,7 +5391,7 @@ public class RoomRegressionTest0 {
     public void test332() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test332");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) ' ');
         room4.setPrice((double) (byte) 1);
         room4.setId((int) (short) -1);
         java.lang.String str9 = room4.getNumber();
@@ -5402,7 +5402,7 @@ public class RoomRegressionTest0 {
     public void test333() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test333");
-        Room room4 = new Room((int) (short) 0, "Room{id=0, number='', type='', price=0.0, available=true}", "Room{id=0, number='', type='', price=0.0, available=true}", (double) 0L);
+        RoomClass room4 = new RoomClass((int) (short) 0, "Room{id=0, number='', type='', price=0.0, available=true}", "Room{id=0, number='', type='', price=0.0, available=true}", (double) 0L);
         room4.setPrice((double) (short) 10);
     }
 
@@ -5410,7 +5410,7 @@ public class RoomRegressionTest0 {
     public void test334() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test334");
-        Room room4 = new Room((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
+        RoomClass room4 = new RoomClass((int) (short) -1, "Room{id=0, number='hi!', type='', price=10.0, available=true}", "Room{id=0, number='', type='hi!', price=10.0, available=true}", (double) 'a');
         java.lang.String str5 = room4.getNumber();
         room4.setPrice((double) ' ');
         room4.setType("Room{id=100, number='', type='', price=10.0, available=true}");
@@ -5424,14 +5424,14 @@ public class RoomRegressionTest0 {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test335");
         @SuppressWarnings("unused")
-        Room room4 = new Room((int) (byte) 0, "Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}", "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='', price=10.0, available=true}", (double) (-1));
+        RoomClass room4 = new RoomClass((int) (byte) 0, "Room{id=0, number='', type='Room{id=0, number='', type='', price=100.0, available=true}', price=10.0, available=true}", "Room{id=0, number='Room{id=0, number='', type='', price=100.0, available=true}', type='', price=10.0, available=true}", (double) (-1));
     }
 
     @Test
     public void test336() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test336");
-        Room room4 = new Room((int) ' ', "hi!", "Room{id=0, number='', type='', price=1.0, available=true}", (double) (-1L));
+        RoomClass room4 = new RoomClass((int) ' ', "hi!", "Room{id=0, number='', type='', price=1.0, available=true}", (double) (-1L));
         room4.setPrice((double) 32);
         int int7 = room4.getId();
         java.lang.Class<?> wildcardClass8 = room4.getClass();
@@ -5443,7 +5443,7 @@ public class RoomRegressionTest0 {
     public void test337() throws Throwable {
         if (debug)
             System.out.format("%n%s%n", "RegressionTest0.test337");
-        Room room0 = new Room();
+        RoomClass room0 = new RoomClass();
         java.lang.String str1 = room0.getNumber();
         room0.setPrice((double) (byte) 10);
         int int4 = room0.getId();
@@ -5462,3 +5462,4 @@ public class RoomRegressionTest0 {
         org.junit.Assert.assertEquals("'" + str14 + "' != '" + "Room{id=10, number='', type='', price=100.0, available=true}" + "'", str14, "Room{id=10, number='', type='', price=100.0, available=true}");
     }
 }
+
