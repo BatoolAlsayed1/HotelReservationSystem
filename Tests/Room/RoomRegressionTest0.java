@@ -5462,4 +5462,3 @@ public class RoomRegressionTest0 {
         org.junit.Assert.assertEquals("'" + str14 + "' != '" + "Room{id=10, number='', type='', price=100.0, available=true}" + "'", str14, "Room{id=10, number='', type='', price=100.0, available=true}");
     }
 }
-
