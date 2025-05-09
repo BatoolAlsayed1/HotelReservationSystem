@@ -14,7 +14,7 @@ public class ReserveRoom {
         System.out.print("Enter your name: ");
         String name = scanner.nextLine().trim();  // Trims whitespace
         System.out.print("Enter your email: ");
-        String email = scanner.nextLine();
+        String email = scanner.nextLine().trim();  // Trims whitespace
         return new User(name, email);
     }
 
