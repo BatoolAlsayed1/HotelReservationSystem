@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Pattern;
+
 
 public class ReserveRoom {
     private List<Room> rooms;         
@@ -11,10 +13,26 @@ public class ReserveRoom {
         this.reservations = new ArrayList<>();
     }
     private User promptUserDetails(Scanner scanner) {
+        String name;
+        do{
         System.out.print("Enter your name: ");
-        String name = scanner.nextLine().trim();  // Trims whitespace
+        name = scanner.nextLine().trim();  // Trims whitespace
+        if (name.isEmpty()) {
+            System.out.println("name cannot be empty. Please enter a valid name.");
+        }
+        }while (name.isEmpty());
+        String email;
+        Pattern emailPattern = Pattern.compile("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$");
+        do{
         System.out.print("Enter your email: ");
-        String email = scanner.nextLine().trim();  // Trims whitespace
+        email = scanner.nextLine().trim();  // Trims whitespace
+        if (email.isEmpty()) {
+            System.out.println("Email cannot be empty. Please enter a valid email.");
+        } else if (!emailPattern.matcher(email).matches()) {
+            System.out.println("Invalid email format. Please enter a valid email.");
+        }
+        }while (email.isEmpty() || !emailPattern.matcher(email).matches());
+        
         return new User(name, email);
     }
 
@@ -28,18 +46,18 @@ public class ReserveRoom {
     }
 
     public void displayAvailableRooms() {
-        boolean found = false;
+        boolean hasAvailableRooms = false;
         for (Room room : rooms) {
             if (room.isAvailable()) {
-                if (!found) {
+                if (!hasAvailableRooms) {
                     System.out.println("\nAvailable rooms:");
                 }
-                found = true;
+                hasAvailableRooms = true;
                 System.out.printf("Room Number: %s, Type: %s, Price: %.2f%n",
                                   room.getNumber(), room.getType(), room.getPrice());
             }
         }
-        if (!found) {
+        if (!hasAvailableRooms) {
             System.out.println("\nNo rooms available.");
         }
     }
@@ -63,9 +81,14 @@ public class ReserveRoom {
             reserveRoom.displayAvailableRooms();
 
             System.out.print("\nEnter the room number to reserve (or 'exit'): ");
-            String choice = scanner.nextLine();
+            String choice = scanner.nextLine().trim();
             if (choice.equalsIgnoreCase("exit")) {
                 break;
+            }
+            // validate room number
+            if (!choice.matches("\\d+")) {
+                System.out.println("Invalid room number. Please enter a valid number.");
+                continue;
             }
 
             Room selectedRoom = null;
@@ -78,17 +101,13 @@ public class ReserveRoom {
 
             if (selectedRoom == null) {
                 System.out.println("Room not found. Please try again.");
-            } else {
+            } else if (!selectedRoom.isAvailable()) {
+                System.out.println("Room " + selectedRoom.getNumber() + " is already reserved.");
+            }else {
                 System.out.println(reserveRoom.reserveRoom(user, selectedRoom));
             }
+        }
             System.out.println();
-        }
-
-
-        System.out.println("Your reservations:");
-        for (String rec : reserveRoom.reservations) {
-            System.out.println(rec);
-        }
 
         scanner.close();
     }
