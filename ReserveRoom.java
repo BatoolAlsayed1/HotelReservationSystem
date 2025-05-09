@@ -28,7 +28,7 @@ public class ReserveRoom {
     }
 
     public void displayAvailableRooms() {
-        boolean found = false;
+        boolean hasAvailableRooms = false;
         for (Room room : rooms) {
             if (room.isAvailable()) {
                 if (!found) {
